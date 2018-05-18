@@ -1,0 +1,18 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+.black {
+  color: aquamarine;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 671311 */
+  src: url('//at.alicdn.com/t/font_671311_km2laawy9zm5nrk9.eot');
+  src: url('//at.alicdn.com/t/font_671311_km2laawy9zm5nrk9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_671311_km2laawy9zm5nrk9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_671311_km2laawy9zm5nrk9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_671311_km2laawy9zm5nrk9.svg#iconfont') format('svg');
+}

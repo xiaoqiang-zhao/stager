@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+    <!-- 头图 -->
+    <view class="banner">
+        <text class="main-title">找过来人</text>
+        <text class="subhead">随时找附近的过来人聊聊</text>
+    </view>
+    <view class="lbs iconfont icon-local">
+        {{locationName}}
+    </view>
+</view>

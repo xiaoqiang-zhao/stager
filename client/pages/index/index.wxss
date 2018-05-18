@@ -1,0 +1,28 @@
+/**index.wxss**/
+page {
+    background: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.banner {
+    width: 100%;
+    height: 414rpx;
+    background: #3484F5;
+}
+.banner .main-title {
+    display: block;
+    color: #523126;
+    font-size: 72rpx;
+    padding: 100rpx 0 0 49rpx;
+}
+.banner .subhead {
+    display: block;
+    color: #524845;
+    font-size: 48rpx;
+    padding-left: 49rpx;
+}
+.lbs {
+    color: #555555;
+}

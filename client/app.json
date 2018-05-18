@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/addCgi/addCgi"
+  ],
+  "window":{
+    "backgroundColor":"#ffffff",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "过来人",
+    "navigationBarTextStyle":"black"
+  }
+}
