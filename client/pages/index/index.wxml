@@ -1,18 +1,104 @@
 <!--index.wxml-->
 <view class="container">
-    <!-- 头图 -->
-    <view class="banner">
-      <image class="banner-img" mode="widthFix" src="banner.png"></image>
-      <section class="title-section">
-        <text class="main-title">找过来人</text>
-        <text class="subhead">随时找附近的过来人聊聊</text>
+  <!-- 头图 -->
+  <view class="banner">
+    <image class="banner-img" mode="widthFix" src="banner.png"></image>
+    <section class="title-section">
+      <text class="main-title">找过来人</text>
+      <text class="subhead">随时找附近的过来人聊聊</text>
+    </section>
+    <section class="search-section">
+      <i class="iconfont icon-search"></i>
+    </section>
+  </view>
+  <view class="lbs">
+    <i class="iconfont icon-local"></i> {{locationName}}
+  </view>
+  <scroll-view class="nav" scroll-x="true">
+    <text class="item actived">全部经历</text>
+    <text class="item">职场经历</text>
+    <text class="item">兴趣爱好</text>
+    <text class="item">个人专长</text>
+    <text class="item">职场经理</text>
+    <text class="item">兴趣爱好</text>
+  </scroll-view>
+  <view class="stager-list">
+    <article class="stager-item">
+      <image class="header-img" src="banner.png"></image>
+      <section>
+        <div class="title">自学吉他4年的经历</div>
+        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
+        <div class="address-line">1km 百度科技园二号楼</div>
+        <div>
+          <span class="appointment">
+              <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
+          </span>
+          <span class="num">15人见过</span>
+        </div>
       </section>
-      <section class="search-section">
-          <i class="iconfont icon-search"></i>
+    </article>
+
+    <article class="stager-item">
+      <image class="header-img" src="banner.png"></image>
+      <section>
+        <div class="title">自学吉他4年的经历</div>
+        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
+        <div class="address-line">1km 百度科技园二号楼</div>
+        <div>
+          <span class="appointment">
+            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
+          </span>
+          <span class="num">15人见过</span>
+        </div>
       </section>
-    </view>
-    <view class="lbs">
-      <i class="iconfont icon-local"></i>
-      {{locationName}}
-    </view>
+    </article>
+
+    <article class="stager-item">
+      <image class="header-img" src="banner.png"></image>
+      <section>
+        <div class="title">自学吉他4年的经历</div>
+        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
+        <div class="address-line">1km 百度科技园二号楼</div>
+        <div>
+          <span class="appointment">
+            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
+          </span>
+          <span class="num">15人见过</span>
+        </div>
+      </section>
+    </article>
+
+    <article class="stager-item">
+      <image class="header-img" src="banner.png"></image>
+      <section>
+        <div class="title">自学吉他4年的经历</div>
+        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
+        <div class="address-line">1km 百度科技园二号楼</div>
+        <div>
+          <span class="appointment">
+            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
+          </span>
+          <span class="num">15人见过</span>
+        </div>
+      </section>
+    </article>
+
+    <article class="stager-item">
+      <image class="header-img" src="banner.png"></image>
+      <section>
+        <div class="title">自学吉他4年的经历</div>
+        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
+        <div class="address-line">1km 百度科技园二号楼</div>
+        <div>
+          <span class="appointment">
+            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
+          </span>
+          <span class="num">15人见过</span>
+        </div>
+      </section>
+    </article>
+  </view>
+  <view class="bottom-bar">
+    <i class="iconfont icon-join"></i> 成为过来人
+  </view>
 </view>
