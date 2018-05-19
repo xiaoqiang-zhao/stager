@@ -3,7 +3,7 @@
 Page({
     data: {
         userInfo: {},
-        locationName: '正在获取位置信息...'
+        locationName: '百度科技园附近'
     },
     onLoad() {
         // wx.chooseLocation({

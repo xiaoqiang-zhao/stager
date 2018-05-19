@@ -1,28 +1,70 @@
 /**index.wxss**/
+
 page {
-    background: #F6F6F6;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .banner {
-    width: 100%;
-    height: 414rpx;
-    background: #3484F5;
+  position: relative;
+  width: 100%;
 }
-.banner .main-title {
-    display: block;
-    color: #523126;
-    font-size: 72rpx;
-    padding: 100rpx 0 0 49rpx;
+
+.banner .banner-img {
+  display: block;
+  width: 100%;
 }
-.banner .subhead {
-    display: block;
-    color: #524845;
-    font-size: 48rpx;
-    padding-left: 49rpx;
+
+.banner .title-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 30.77rpx;
+  opacity: .8;
 }
+
+.banner .title-section .main-title {
+  display: block;
+  color: #523126;
+  padding: 48.27rpx 0 12.58rpx 0;
+  line-height: 43.44rpx;
+  font-size: 43.44rpx;
+  font-weight: 600;
+  text-shadow: 0 1px 2px #D6B898;
+}
+
+.banner .title-section .subhead {
+  display: block;
+  color: #524845;
+  font-size: 29.96rpx;
+  /* font-weight: bolder; */
+}
+
+.banner .search-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.banner .search-section .icon-search {
+    position: absolute;
+    top: 35rpx;
+    right: 35rpx;
+    font-size: 35.96rpx;
+    /* color: #F6F6F6; */
+    font-weight: 700;
+
+}
+
 .lbs {
-    color: #555555;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 18px;
+  text-align: left;
+  color: #555555;
+  font-size: 18px;
 }
