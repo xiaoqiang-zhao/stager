@@ -3,7 +3,8 @@
 Page({
   data: {
     userInfo: {},
-    locationName: '百度科技园附近'
+    locationName: '百度科技园附近',
+    isActivedSearch: false
   },
   onLoad() {
     // wx.chooseLocation({
@@ -24,6 +25,21 @@ Page({
   toBeStager() {
     wx.navigateTo({
       url: '/pages/to-be-stager/index'
+    });
+  },
+  activeSearch() {
+    this.setData({
+      isActivedSearch: true
+    });
+  },
+  cancelSearch() {
+    this.setData({
+      isActivedSearch: false
+    });
+  },
+  search() {
+    this.setData({
+      isActivedSearch: false
     });
   }
 });

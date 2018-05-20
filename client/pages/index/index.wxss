@@ -5,9 +5,10 @@ page {
 }
 
 .container {
-    padding-bottom: 80px;
+  padding-bottom: 80px;
 }
 
+/*==== 头图区块 ====*/
 .banner {
   position: relative;
   width: 100%;
@@ -40,11 +41,11 @@ page {
   display: block;
   color: #524845;
   font-size: 29.96rpx;
-  /* font-weight: bolder; */
 }
 
 .banner .search-section {
   position: absolute;
+  z-index: 10;
   top: 0;
   left: 0;
   width: 100%;
@@ -52,13 +53,52 @@ page {
 
 .banner .search-section .icon-search {
   position: absolute;
+  z-index: 10;
   top: 35rpx;
   right: 35rpx;
   font-size: 35.96rpx;
-  /* color: #F6F6F6; */
   font-weight: 700;
 }
 
+/*==== 搜索弹层 ====*/
+.search-view {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 15px 58px 15px 15px;
+  background: #fff;
+  z-index: 100;
+}
+
+.search-view .input {
+  border: 1px solid #F1F1F1;
+  padding: 0 5px 0 28px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.search-view .icon-search {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+}
+
+.search-view .cancel {
+  position: absolute;
+  top: 20px;
+  right: 13px;
+  font-size: 16px;
+  color: #333333;
+}
+
+/*==== 位置信息模块 ====*/
 .lbs {
   display: block;
   box-sizing: border-box;
@@ -69,6 +109,7 @@ page {
   font-size: 18px;
 }
 
+/*==== 导航 ====*/
 .nav {
   padding-bottom: 15px;
   border-bottom: 1px solid #E0E0E0;
@@ -86,6 +127,7 @@ page {
   color: #000;
 }
 
+/*==== 列表块 ====*/
 .stager-list {
   display: block;
   box-sizing: border-box;
@@ -147,12 +189,13 @@ page {
   color: #999999;
 }
 
+/*==== 底部按钮 ====*/
 .bottom-bar {
   position: fixed;
   bottom: 0;
   width: 100%;
   border-bottom: 1px solid #E0E0E0;
-  box-shadow: 0 -1px 4px 0 rgba(0,0,0,0.20);
+  box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.20);
   background: #fff;
   text-align: center;
   font-size: 16px;

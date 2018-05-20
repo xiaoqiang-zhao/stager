@@ -8,9 +8,20 @@
       <text class="subhead">随时找附近的过来人聊聊</text>
     </section>
     <section class="search-section">
-      <i class="iconfont icon-search"></i>
+      <i class="iconfont icon-search" bindtap="activeSearch"></i>
     </section>
   </view>
+  <view wx:if="{{isActivedSearch}}" class="search-view">
+    <input class="input"
+           type="text"
+           auto-focus
+           confirm-type="search"
+           bindconfirm="search"
+           placeholder="搜索过来人"/>
+    <i class="iconfont icon-search"></i>
+    <text class="cancel" bindtap="cancelSearch">取消</text>
+  </view>
+
   <view class="lbs">
     <i class="iconfont icon-local"></i> {{locationName}}
   </view>
