@@ -14,11 +14,8 @@ Page({
     //         this.locationName = '未授权获取当前位置';
     //     }
     // });
-  },
-  // 约过来人
-  appoint() {
-    wx.navigateTo({
-      url: '/pages/appointment/index?id=1'
+    wx.setNavigationBarTitle({
+      title: '预约'
     });
   }
 });

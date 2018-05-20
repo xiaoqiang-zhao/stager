@@ -30,7 +30,7 @@
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
         <div class="address-line">1km 百度科技园二号楼</div>
         <div>
-          <span class="appointment">
+          <span class="appointment" bindtap="appoint">
               <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
           </span>
           <span class="num">15人见过</span>
@@ -45,7 +45,7 @@
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
         <div class="address-line">1km 百度科技园二号楼</div>
         <div>
-          <span class="appointment">
+          <span class="appointment" bindtap="appoint">
             <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
           </span>
           <span class="num">15人见过</span>
@@ -60,7 +60,7 @@
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
         <div class="address-line">1km 百度科技园二号楼</div>
         <div>
-          <span class="appointment">
+          <span class="appointment" bindtap="appoint">
             <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
           </span>
           <span class="num">15人见过</span>
@@ -75,7 +75,7 @@
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
         <div class="address-line">1km 百度科技园二号楼</div>
         <div>
-          <span class="appointment">
+          <span class="appointment" bindtap="appoint">
             <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
           </span>
           <span class="num">15人见过</span>
@@ -90,7 +90,7 @@
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
         <div class="address-line">1km 百度科技园二号楼</div>
         <div>
-          <span class="appointment">
+          <span class="appointment" bindtap="appoint">
             <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
           </span>
           <span class="num">15人见过</span>
