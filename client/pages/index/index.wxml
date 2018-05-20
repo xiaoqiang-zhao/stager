@@ -98,7 +98,7 @@
       </section>
     </article>
   </view>
-  <view class="bottom-bar">
+  <view class="bottom-bar" bindtap="toBeStager">
     <i class="iconfont icon-join"></i> 成为过来人
   </view>
 </view>

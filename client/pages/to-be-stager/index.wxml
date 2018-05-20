@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container">
+  <section class="progress">
+    <div class="line line-aside active"></div>
+    <div class="text-section active">提交申请</div>
+    <div class="line line"></div>
+    <div class="text-section">核对确认</div>
+    <div class="line line"></div>
+    <div class="text-section">入驻成功</div>
+    <div class="line line-aside"></div>
+  </section>
+  <section class="section title-section">
+    <div class="title">
+      话题经历
+    </div>
+    <div>
+      <textarea class="textarea"/>
+    </div>
+  </section>
+  <section class="bottom-right">
+    <div>温馨提示：该服务由过来人科技提供</div>
+    <div>客服电话：138-8078-6473</div>
+  </section>
+</view>

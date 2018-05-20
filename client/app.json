@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/appointment/index",
+    "pages/to-be-stager/index",
     "pages/addCgi/addCgi"
   ],
   "window":{

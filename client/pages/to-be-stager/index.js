@@ -1,4 +1,4 @@
-//index.js
+// 成为过来人
 
 Page({
   data: {
@@ -14,16 +14,8 @@ Page({
     //         this.locationName = '未授权获取当前位置';
     //     }
     // });
-  },
-  // 约过来人
-  appoint() {
-    wx.navigateTo({
-      url: '/pages/appointment/index?id=1'
-    });
-  },
-  toBeStager() {
-    wx.navigateTo({
-      url: '/pages/to-be-stager/index'
+    wx.setNavigationBarTitle({
+      title: '成为过来人'
     });
   }
 });

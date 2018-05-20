@@ -1,0 +1,78 @@
+/**index.wxss**/
+
+page {
+  display: block;
+  background: #f8f8f8;
+}
+
+.section {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 10px 0 0;
+  padding: 10px;
+  background: #fff;
+}
+
+.section .title {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+/*==== 进度条 ====*/
+
+.progress {
+  display: flex;
+  width: 100%;
+  background: #ffffff;
+  color: #999999;
+}
+
+.progress .text-section {
+  flex: 0 0 60px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.progress .text-section:after {
+  content: ' ';
+  display: inline-block;
+  margin: 6px 15px 20px;
+  width: 12px;
+  height: 12px;
+  background: #999999;
+  border-radius: 12px;
+}
+
+.progress .line {
+  flex: 2;
+  border-bottom: 1px solid #999999;
+  max-height: 46px;
+}
+
+.progress .line-aside {
+  flex: 1;
+}
+
+.active {
+  color: #FF6600;
+}
+
+.progress .text-section.active:after {
+  background: #FF6600;
+}
+
+.progress .line.active {
+  border-color: #FF6600;
+}
+
+/*==== 标题块 ====*/
+
+.section .textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #EEEEEE;
+}
