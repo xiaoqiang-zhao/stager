@@ -43,6 +43,10 @@ page {
   font-size: 22px;
 }
 
+.banner .icon-star.collected {
+  color: #ff6600;
+}
+
 .banner .header-img {
   display: block;
   width: 95px;

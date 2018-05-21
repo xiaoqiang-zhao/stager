@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <section class="banner">
-      <i class="iconfont icon-star" bindtap="showToast()"></i>
+      <i class="iconfont icon-star {{isCollected ? 'collected' : ''}}" bindtap="showCollectedToast"></i>
     <image class="header-img" src="../index/banner.png"></image>
     <div class="title">
       <span class="name">张润民</span>

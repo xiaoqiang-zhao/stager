@@ -3,7 +3,6 @@
 Page({
   data: {
     userInfo: {},
-    // 收藏
     isCollected: false
   },
   onLoad() {
@@ -16,14 +15,14 @@ Page({
     });
   },
   // 显示消息提示框
-  showToast() {
+  showCollectedToast() {
     let text = '收藏成功';
-    if (isCollected) {
+    if (this.data.isCollected) {
       text = '取消收藏成功';
     }
 
-    wx.setData({
-      isCollected: !isCollected
+    this.setData({
+      isCollected: !this.data.isCollected
     });
 
     wx.showToast({
