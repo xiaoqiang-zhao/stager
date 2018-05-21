@@ -2,7 +2,7 @@
 <view class="container">
   <section class="banner">
       <i class="iconfont icon-star {{isCollected ? 'collected' : ''}}" bindtap="showCollectedToast"></i>
-    <image class="header-img" src="../index/banner.png"></image>
+    <image class="header-img" src="https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cEozpNhumic4bs2no9ibZXxAuYu18X13S6sopfcKRU6jgXlWD0nqtW5IUAfqICyL15rYQFf2Rbhe0Q/0?wx_fmt=png"></image>
     <div class="title">
       <span class="name">张润民</span>
       <span class="tag">已认证</span>

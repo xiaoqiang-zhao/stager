@@ -35,7 +35,7 @@
   </scroll-view>
   <view class="stager-list">
     <article class="stager-item">
-      <image class="header-img" src="banner.png" bindtap="toStagerDetailPage"></image>
+      <image class="header-img" src="https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cEozpNhumic4bs2no9ibZXxAuYu18X13S6sopfcKRU6jgXlWD0nqtW5IUAfqICyL15rYQFf2Rbhe0Q/0?wx_fmt=png" bindtap="toStagerDetailPage"></image>
       <section>
         <div class="title" bindtap="toStagerDetailPage">自学吉他4年的经历</div>
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
