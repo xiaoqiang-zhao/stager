@@ -35,9 +35,9 @@
   </scroll-view>
   <view class="stager-list">
     <article class="stager-item">
-      <image class="header-img" src="banner.png"></image>
+      <image class="header-img" src="banner.png" bindtap="toStagerDetailPage"></image>
       <section>
-        <div class="title">自学吉他4年的经历</div>
+        <div class="title" bindtap="toStagerDetailPage">自学吉他4年的经历</div>
         <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
         <div class="address-line">1km 百度科技园二号楼</div>
         <div>

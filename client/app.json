@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/appointment/index",
     "pages/to-be-stager/index",
+    "pages/stager-detail/index",
     "pages/addCgi/addCgi"
   ],
   "window":{

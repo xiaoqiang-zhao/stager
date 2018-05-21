@@ -141,6 +141,10 @@ page {
   border-bottom: 1px solid #E0E0E0;
 }
 
+.stager-item:last-child {
+  border: none;
+}
+
 .stager-item .header-img {
   flex: 0 0 56px;
   width: 56px;

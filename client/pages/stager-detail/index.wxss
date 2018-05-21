@@ -1,0 +1,128 @@
+/**index.wxss**/
+
+page {
+  display: block;
+  background: #f8f8f8;
+}
+
+.container {
+  /* 为吸底按钮留位置避免遮挡内容 */
+  padding-bottom: 80px;
+}
+
+.section {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 10px 0 0;
+  padding: 10px;
+  background: #fff;
+}
+
+.section .title {
+  font-size: 18px;
+  line-height: 2em;
+}
+
+/*==== 头图区块 ====*/
+
+.banner {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+  background: #6d3f20;
+  color: #fff;
+}
+
+.banner .icon-star {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 22px;
+}
+
+.banner .header-img {
+  display: block;
+  width: 95px;
+  height: 95px;
+  margin: 0 auto;
+  border-radius: 95px;
+  border: 1px solid #EEEEEE;
+}
+
+.banner .title {
+  width: 100%;
+  font-size: 18px;
+  padding: 15px 0 12px;
+}
+
+.banner .title .name {
+  margin-right: 10px;
+}
+
+.banner .title .tag {
+  margin-right: -52px;
+  border: 1px solid #E3E3E3;
+  border-radius: 2px;
+  font-size: 10px;
+  line-height: 10px;
+  padding: 0px 5px;
+}
+
+.banner .sub {
+  font-size: 16px;
+}
+
+.banner .address-line {
+  padding: 12px 0 20px 0;
+  font-size: 14px;
+}
+
+/*==== 内容块 ====*/
+
+.content-section .tag {
+  display: inline-block;
+  margin-left: 7px;
+  border: 1px solid #FF6600;
+  border-radius: 2px;
+  padding: 2px 5px;
+  font-size: 10px;
+  line-height: 1em;
+  color: #FF6600;
+}
+
+.content-section .sub {
+  
+}
+
+.content-section .sub .price {
+  font-size: 16px;
+  color: #ff6600;
+}
+
+.content-section .sub .num {
+  float: right;
+  font-size: 14px;
+  color: #999999;
+}
+
+.content-section .content {
+  padding-top: 10px;
+  font-size: 16px;
+  color: #555555;
+  line-height: 1.5em;
+}
+
+.bottom-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -1px 4px 0 rgba(0, 0, 0, 0.20);
+  text-align: center;
+  font-size: 16px;
+  line-height: 48px;
+  color: #fff;
+  background: #F75F48;
+}

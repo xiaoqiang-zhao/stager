@@ -27,6 +27,11 @@ Page({
       url: '/pages/to-be-stager/index'
     });
   },
+  toStagerDetailPage() {
+    wx.navigateTo({
+      url: '/pages/stager-detail/index'
+    });
+  },
   activeSearch() {
     this.setData({
       isActivedSearch: true
