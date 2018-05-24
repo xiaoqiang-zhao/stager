@@ -5,20 +5,6 @@ page {
   background: #f8f8f8;
 }
 
-.section {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  margin: 10px 0 0;
-  padding: 10px;
-  background: #fff;
-}
-
-.section .title {
-  font-size: 18px;
-  line-height: 2em;
-}
-
 /*==== 进度条 ====*/
 
 .progress {
@@ -69,7 +55,7 @@ page {
 
 /*==== 标题块 ====*/
 
-.section .textarea {
+.title-section .textarea {
   display: block;
   width: 100%;
   box-sizing: border-box;

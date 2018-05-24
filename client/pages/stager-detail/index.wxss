@@ -103,6 +103,12 @@ page {
   line-height: 14px;
 }
 
+.banner .address-line .icon-local {
+  position: relative;
+  top: 1px;
+  font-size: 16px;
+}
+
 /*==== 内容块 ====*/
 
 .content-section .tag {

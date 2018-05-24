@@ -17,5 +17,12 @@ Page({
     wx.setNavigationBarTitle({
       title: '预约'
     });
+  },
+  appoint() {
+    wx.showToast({
+      title: '预约成功',
+      icon: 'success',
+      duration: 2000
+    });
   }
 });

@@ -5,20 +5,6 @@ page {
   background: #f8f8f8;
 }
 
-.section {
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  margin: 10px 0 0;
-  padding: 10px;
-  background: #fff;
-}
-
-.section .title {
-  font-size: 18px;
-  line-height: 2em;
-}
-
 /*==== 进度条 ====*/
 
 .progress {
@@ -76,31 +62,36 @@ page {
 
 .title-section .sub {
   font-size: 14px;
-  color: #FF6600;
+  line-height: 1em;
+  color: #999;
 }
 
 /*==== 预约块 ====*/
 
 .appointment-section .title span {
-  color: #555555;
+  color: #999;
   font-size: 13px;
 }
 
 .phone-line {
   display: flex;
   line-height: 38px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .phone-line .input {
   flex: 1;
-  border: 1px solid #F1F1F1;
+  border: 1px solid #f1f1f1;
   font-size: 14px;
-  color: #999999;
+  color: #999;
   line-height: 38px;
   height: 38px;
   padding: 0 10px;
+}
+
+.phone-line .input-placeholder {
+  color: #999;
 }
 
 .phone-line .button {
@@ -110,11 +101,12 @@ page {
 }
 
 .wechat-line {
-  margin-top: 5px;
+  padding-top: 10px;
 }
 
 .wechat-line .wechart {
   font-size: 14px;
+  line-height: 1em;
   color: #555555;
 }
 

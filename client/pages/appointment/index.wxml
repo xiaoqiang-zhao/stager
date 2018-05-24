@@ -9,21 +9,21 @@
     <div class="text-section">付款</div>
     <div class="line line-aside"></div>
   </section>
-  <section class="section title-section">
+  <section class="card-section title-section">
     <div class="title">
       如何一天能熟练使用sketch
       <span>￥20元</span>
     </div>
     <div class="sub">该约见先见面后付款</div>
   </section>
-  <section class="section appointment-section">
+  <section class="card-section appointment-section">
     <div class="title">
       电话预约
       <span>(等待过来人来电)</span>
     </div>
     <div class="phone-line">
       <input class="input" type="number" placeholder="请留下您的联系方式"/>
-      <button class="button" type="default" hover-class="other-button-hover">预约见面</button>
+      <button class="button" type="default" bindtap="appoint">预约见面</button>
     </div>
     <div class="wechat-line">
       <div class="title">
@@ -38,6 +38,6 @@
   </section>
   <section class="bottom-right">
     <div>温馨提示：该服务由过来人科技提供</div>
-    <div>客服电话：138-8078-6473</div>
+    <div>客服电话：185-0019-0180</div>
   </section>
 </view>
