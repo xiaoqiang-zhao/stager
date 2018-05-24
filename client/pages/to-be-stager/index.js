@@ -17,5 +17,15 @@ Page({
     wx.setNavigationBarTitle({
       title: '成为过来人'
     });
+  },
+  submit() {
+    wx.showToast({
+      title: '提价成功',
+      icon: 'success',
+      duration: 2000
+    });
+    wx.navigateTo({
+      url: '/pages/index/index'
+    });
   }
 });

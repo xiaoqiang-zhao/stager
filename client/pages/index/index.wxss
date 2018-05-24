@@ -56,7 +56,7 @@ page {
   z-index: 10;
   top: 35rpx;
   right: 35rpx;
-  font-size: 35.96rpx;
+  font-size: 42rpx;
   font-weight: 700;
 }
 
@@ -112,7 +112,7 @@ page {
 /*==== 导航 ====*/
 .nav {
   padding-bottom: 15px;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #f1f1f1;
   color: #666666;
   font-family: 'PingFangSC-Regular';
   font-size: 15px;
@@ -138,7 +138,7 @@ page {
 .stager-item {
   display: flex;
   padding-bottom: 1em;
-  border-bottom: 1px solid #E0E0E0;
+  border-bottom: 1px solid #f1f1f1;
 }
 
 .stager-item:last-child {
@@ -190,6 +190,7 @@ page {
 
 .stager-item .num {
   float: right;
+  font-size: 12px;
   color: #999999;
 }
 

@@ -7,7 +7,7 @@
       <span class="name">张润民</span>
       <span class="tag">已认证</span>
     </div>
-    <div class="sub">吉他深度玩家 | 百度产品经理</div>
+    <div class="sub">吉他深度玩家<i class="space"></i>百度产品经理</div>
     <div class="address-line">
       <i class="iconfont icon-local"></i> 百度科技园二号楼
     </div>
@@ -15,7 +15,7 @@
   <section class="section content-section">
     <div class="title">
       4年自学吉他经历
-      <span class="tag">先见面后付款</span>
+      <!-- <span class="tag">先见面后付款</span> -->
     </div>
     <div class="sub">
       <span class="price">80元/次</span>

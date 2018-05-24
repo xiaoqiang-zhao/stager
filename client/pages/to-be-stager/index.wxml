@@ -21,4 +21,7 @@
     <div>温馨提示：该服务由过来人科技提供</div>
     <div>客服电话：138-8078-6473</div>
   </section>
+  <view class="bottom-bar" bindtap="submit">
+    提交
+  </view>
 </view>
