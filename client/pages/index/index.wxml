@@ -20,6 +20,10 @@
            placeholder="搜索过来人"/>
     <i class="iconfont icon-search"></i>
     <text class="cancel" bindtap="cancelSearch">取消</text>
+    <section class="empty-list">
+      <i class="iconfont icon-coffee"></i>
+      <div>抱歉，暂无相关结果</div>
+    </section>
   </view>
 
   <view class="lbs">

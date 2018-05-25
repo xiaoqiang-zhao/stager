@@ -9,12 +9,13 @@
     <div class="text-section">入驻成功</div>
     <div class="line line-aside"></div>
   </section>
-  <section class="card-section title-section">
+  <section class="card-section textarea-section">
     <div class="title">
-      话题经历
+      话题
     </div>
-    <div>
-      <textarea class="textarea"/>
+    <div class="textarea-container">
+      <textarea class="textarea" bindinput="onInput" placeholder="想成为哪方面过来人，写出你的经历"/>
+      <span class="count">{{count}}/100</span>
     </div>
   </section>
   <section class="bottom-right">

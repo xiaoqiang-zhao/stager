@@ -3,7 +3,8 @@
 Page({
   data: {
     userInfo: {},
-    locationName: '百度科技园附近'
+    locationName: '百度科技园附近',
+    count: 0
   },
   onLoad() {
     // wx.chooseLocation({
@@ -18,6 +19,15 @@ Page({
       title: '成为过来人'
     });
   },
+
+  // 文本域输入事件
+  onInput(event) {
+    this.setData({
+      count: event.detail.cursor
+    });
+  },
+
+  // 提交
   submit() {
     wx.showToast({
       title: '提价成功',
