@@ -149,3 +149,8 @@ page {
 .about-stager-section .content-img {
   width: 100%;
 }
+
+.about-stager-section .content p {
+  display: block;
+  width: 100%;
+}

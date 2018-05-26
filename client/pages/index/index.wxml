@@ -30,25 +30,24 @@
     <i class="iconfont icon-local"></i> {{locationName}}
   </view>
   <scroll-view class="nav" scroll-x="true">
-    <text class="item actived">全部经历</text>
-    <text class="item">职场经历</text>
-    <text class="item">兴趣爱好</text>
-    <text class="item">个人专长</text>
-    <text class="item">职场经理</text>
-    <text class="item">兴趣爱好</text>
+    <text wx:for="{{classificationList}}"
+          wx:key="{{item.id}}"
+          class="item {{activedClassificationId == item.id ? 'actived' : ''}}"
+          data-id="{{item.id}}"
+          bindtap="onChangeClassification">{{item.text}}</text>
   </scroll-view>
   <view class="stager-list">
     <article class="stager-item" wx:for="{{dataList}}" wx:key="id">
       <image class="header-img" bindtap="toStagerDetailPage" data-id="{{item.id}}" src="{{item.headerImgUrl}}"></image>
       <section>
-        <div class="title" bindtap="toStagerDetailPage">{{item.title}}</div>
-        <div class="name-line" bindtap="toStagerDetailPage">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
-        <div class="address-line" bindtap="toStagerDetailPage">{{item.distance}}km {{item.address}}</div>
+        <div class="title" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.title}} {{item.id}}</div>
+        <div class="name-line" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
+        <div class="address-line" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.distance}}km {{item.address}}</div>
         <div>
-          <span class="appointment" bindtap="appoint">
+          <span class="appointment" bindtap="appoint" data-id="{{item.id}}">
               <i class="iconfont icon-coffee"></i> 约见 <span>({{item.price}}元/次)</span>
           </span>
-          <span class="num" bindtap="toStagerDetailPage">{{item.faced}}人见过</span>
+          <span class="num" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.faced}}人见过</span>
         </div>
       </section>
     </article>

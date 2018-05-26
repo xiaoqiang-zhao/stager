@@ -3,7 +3,8 @@
 Page({
   data: {
     stager: {},
-    isCollected: false
+    isCollected: false,
+    stagerId: 0
   },
   onLoad(option) {
     const me = this;
@@ -14,7 +15,8 @@ Page({
         dataList.some(item => {
           if (item.id == option.stagerId) {
             me.setData({
-              stager: item
+              stager: item,
+              stagerId: option.stagerId
             });
             return true;
           }
@@ -25,7 +27,7 @@ Page({
   // 约过来人
   appoint() {
     wx.navigateTo({
-      url: '/pages/appointment/index?id=1'
+      url: '/pages/appointment/index?stagerId=' + this.data.stagerId
     });
   },
   // 显示消息提示框

@@ -31,9 +31,9 @@
         <span>(过来人微信)</span>
       </div>
       <div class="wechart">
-        微信号: 1234567890
+        微信号: {{stager.wechatAccount}}
       </div>
-      <image class="qr-code" mode="widthFix" src="qr.png"></image>
+      <image class="qr-code" mode="widthFix" src="{{stager.wechatQRUrl}}"></image>
     </div>
   </section>
   <section class="bottom-right">
