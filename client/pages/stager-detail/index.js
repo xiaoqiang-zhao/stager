@@ -2,11 +2,25 @@
 
 Page({
   data: {
-    userInfo: {},
+    stager: {},
     isCollected: false
   },
-  onLoad() {
-    
+  onLoad(option) {
+    const me = this;
+    wx.getStorage({
+      key: 'dataList',
+      success(res) {
+        const dataList = res.data;
+        dataList.some(item => {
+          if (item.id == option.stagerId) {
+            me.setData({
+              stager: item
+            });
+            return true;
+          }
+        });
+      }
+    });
   },
   // 约过来人
   appoint() {

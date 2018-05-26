@@ -1,20 +1,20 @@
 //index.js
 
+var data = require('./data.js');
+
 Page({
   data: {
     userInfo: {},
     locationName: '百度科技园附近',
-    isActivedSearch: false
+    isActivedSearch: false,
+    dataList: data.dataList,
+    classificationList: data.classificationList
   },
   onLoad() {
-    // wx.chooseLocation({
-    //     success: res => {
-    //         this.locationName = res.name;
-    //     },
-    //     fail: res => {
-    //         this.locationName = '未授权获取当前位置';
-    //     }
-    // });
+    wx.setStorage({
+      key: 'dataList',
+      data: data.dataList
+    });
   },
   // 约过来人
   appoint() {
@@ -27,9 +27,10 @@ Page({
       url: '/pages/to-be-stager/index'
     });
   },
-  toStagerDetailPage() {
+  toStagerDetailPage(event) {
+    const stagerId = event.currentTarget.dataset.id;
     wx.navigateTo({
-      url: '/pages/stager-detail/index'
+      url: '/pages/stager-detail/index?stagerId=' + stagerId
     });
   },
   activeSearch() {

@@ -38,77 +38,17 @@
     <text class="item">兴趣爱好</text>
   </scroll-view>
   <view class="stager-list">
-    <article class="stager-item">
-      <image class="header-img" bindtap="toStagerDetailPage" src="https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cEozpNhumic4bs2no9ibZXxAuYu18X13S6sopfcKRU6jgXlWD0nqtW5IUAfqICyL15rYQFf2Rbhe0Q/0?wx_fmt=png" bindtap="toStagerDetailPage"></image>
+    <article class="stager-item" wx:for="{{dataList}}" wx:key="id">
+      <image class="header-img" bindtap="toStagerDetailPage" data-id="{{item.id}}" src="{{item.headerImgUrl}}"></image>
       <section>
-        <div class="title" bindtap="toStagerDetailPage">自学吉他4年的经历</div>
-        <div class="name-line" bindtap="toStagerDetailPage">张子博 吉他深度玩家/百度产品经理</div>
-        <div class="address-line" bindtap="toStagerDetailPage">1km 百度科技园二号楼</div>
+        <div class="title" bindtap="toStagerDetailPage">{{item.title}}</div>
+        <div class="name-line" bindtap="toStagerDetailPage">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
+        <div class="address-line" bindtap="toStagerDetailPage">{{item.distance}}km {{item.address}}</div>
         <div>
           <span class="appointment" bindtap="appoint">
-              <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
+              <i class="iconfont icon-coffee"></i> 约见 <span>({{item.price}}元/次)</span>
           </span>
-          <span class="num" bindtap="toStagerDetailPage">15人见过</span>
-        </div>
-      </section>
-    </article>
-
-    <article class="stager-item">
-      <image class="header-img" src="banner.png"></image>
-      <section>
-        <div class="title">自学吉他4年的经历</div>
-        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
-        <div class="address-line">1km 百度科技园二号楼</div>
-        <div>
-          <span class="appointment" bindtap="appoint">
-            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
-          </span>
-          <span class="num">15人见过</span>
-        </div>
-      </section>
-    </article>
-
-    <article class="stager-item">
-      <image class="header-img" src="banner.png"></image>
-      <section>
-        <div class="title">自学吉他4年的经历</div>
-        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
-        <div class="address-line">1km 百度科技园二号楼</div>
-        <div>
-          <span class="appointment" bindtap="appoint">
-            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
-          </span>
-          <span class="num">15人见过</span>
-        </div>
-      </section>
-    </article>
-
-    <article class="stager-item">
-      <image class="header-img" src="banner.png"></image>
-      <section>
-        <div class="title">自学吉他4年的经历</div>
-        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
-        <div class="address-line">1km 百度科技园二号楼</div>
-        <div>
-          <span class="appointment" bindtap="appoint">
-            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
-          </span>
-          <span class="num">15人见过</span>
-        </div>
-      </section>
-    </article>
-
-    <article class="stager-item">
-      <image class="header-img" src="banner.png"></image>
-      <section>
-        <div class="title">自学吉他4年的经历</div>
-        <div class="name-line">张子博 吉他深度玩家/百度产品经理</div>
-        <div class="address-line">1km 百度科技园二号楼</div>
-        <div>
-          <span class="appointment" bindtap="appoint">
-            <i class="iconfont icon-coffee"></i> 约见 <span>(80元/次)</span>
-          </span>
-          <span class="num">15人见过</span>
+          <span class="num" bindtap="toStagerDetailPage">{{item.faced}}人见过</span>
         </div>
       </section>
     </article>
