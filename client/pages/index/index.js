@@ -6,16 +6,34 @@ Page({
   data: {
     userInfo: {},
     locationName: '百度科技园附近',
-    isActivedSearch: false,
     dataList: data.dataList,
     classificationList: data.classificationList,
     activedClassificationId: 0
   },
   onLoad() {
+    // 请求授权
+    this.authorize();
+
     wx.setStorage({
       key: 'dataList',
       data: data.dataList
     });
+  },
+  authorize() {
+    // 先查询用户是否授权了
+    // wx.getSetting({
+    //   success(res) {
+    //     if (res.authSetting['scope.userLocation']) {
+    //       wx.authorize({
+    //         scope: 'scope.userLocation',
+    //         success() {
+    //             // 用户已经同意小程序使用录音功能，后续调用 wx.startRecord 接口不会弹窗询问
+    //             // wx.startRecord()
+    //         }
+    //       });
+    //     }
+    //   }
+    // });
   },
   // 约过来人
   appoint(event) {
@@ -53,14 +71,8 @@ Page({
   },
   // 激活搜索状态
   activeSearch() {
-    this.setData({
-      isActivedSearch: true
-    });
-  },
-  // 退出搜索状态
-  cancelSearch() {
-    this.setData({
-      isActivedSearch: false
+    wx.navigateTo({
+      url: '/pages/search/index'
     });
   },
   // 搜索操作

@@ -17,8 +17,7 @@
       {{stager.title}}
       <!-- <span class="tag">先见面后付款</span> -->
       <span class="more" bindtap="appoint">
-        更多
-        <i class="iconfont right-arrows"></i>
+        更多<i class="iconfont icon-right-arrows"></i>
       </span>
     </div>
     <div class="sub">

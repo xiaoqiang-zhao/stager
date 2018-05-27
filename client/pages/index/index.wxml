@@ -11,20 +11,6 @@
       <i class="iconfont icon-search" bindtap="activeSearch"></i>
     </section>
   </view>
-  <view wx:if="{{isActivedSearch}}" class="search-view">
-    <input class="input"
-           type="text"
-           auto-focus
-           confirm-type="search"
-           bindconfirm="search"
-           placeholder="搜索过来人"/>
-    <i class="iconfont icon-search"></i>
-    <text class="cancel" bindtap="cancelSearch">取消</text>
-    <section class="empty-list">
-      <i class="iconfont icon-coffee"></i>
-      <div>抱歉，暂无相关结果</div>
-    </section>
-  </view>
 
   <view class="lbs">
     <i class="iconfont icon-local"></i> {{locationName}}
@@ -43,7 +29,7 @@
         <div class="title" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.title}} {{item.id}}</div>
         <div class="name-line" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
         <div class="address-line" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.distance}}km {{item.address}}</div>
-        <div>
+        <div class="appointment-line">
           <span class="appointment" bindtap="appoint" data-id="{{item.id}}">
               <i class="iconfont icon-coffee"></i> 约见 <span>({{item.price}}元/次)</span>
           </span>

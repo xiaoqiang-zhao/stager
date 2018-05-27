@@ -1,0 +1,65 @@
+/** 搜索页 **/
+
+page {
+  background: #fff;
+}
+
+.search-view {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 15px 58px 15px 15px;
+  background: #fff;
+  z-index: 100;
+}
+
+.search-view .input {
+  border: 1px solid #F1F1F1;
+  padding: 0 5px 0 28px;
+  height: 32px;
+  line-height: 32px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #999999;
+}
+
+.search-view .icon-search {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+}
+
+.search-view .cancel {
+  position: absolute;
+  top: 20px;
+  right: 13px;
+  font-size: 16px;
+  color: #333333;
+}
+
+.search-view .empty-list {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  margin: -30px 0 0 -15px;
+  text-align: center;
+  color: #666666;
+  font-size: 16px;
+  line-height: 2em;
+}
+
+.search-view .empty-list .icon-list {
+  color: #d1d1d1;
+}
+.search-view .empty-list div {
+  padding-top: 20px;
+}
+
+.search-view .empty-list .iconfont {
+  font-size: 80px;
+}
+
+/* 引入列表样式 */
+@import "../index/index.wxss";

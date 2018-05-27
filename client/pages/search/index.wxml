@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search-view">
+    <input class="input"
+           type="text"
+           auto-focus
+           confirm-type="search"
+           bindconfirm="search"
+           placeholder="搜索过来人"/>
+    <i class="iconfont icon-search"></i>
+    <text class="cancel" bindtap="cancelSearch">取消</text>
+    <section wx:if="{{isShowEmpty}}" class="empty-list">
+      <i class="iconfont icon-list"></i>
+      <div>抱歉，暂无相关结果</div>
+    </section>
+  </view>
+</view>

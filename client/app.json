@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/search/index",
     "pages/appointment/index",
     "pages/to-be-stager/index",
     "pages/stager-detail/index",

@@ -60,60 +60,6 @@ page {
   font-weight: 700;
 }
 
-/*==== 搜索弹层 ====*/
-.search-view {
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: block;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding: 15px 58px 15px 15px;
-  background: #fff;
-  z-index: 100;
-}
-
-.search-view .input {
-  border: 1px solid #F1F1F1;
-  padding: 0 5px 0 28px;
-  height: 32px;
-  line-height: 32px;
-  border-radius: 20px;
-  font-size: 14px;
-  color: #999999;
-}
-
-.search-view .icon-search {
-  position: absolute;
-  top: 22px;
-  left: 23px;
-}
-
-.search-view .cancel {
-  position: absolute;
-  top: 20px;
-  right: 13px;
-  font-size: 16px;
-  color: #333333;
-}
-
-.search-view .empty-list {
-  display: block;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  margin: -30px 0 0 -15px;
-  text-align: center;
-  color: #666666;
-  font-size: 16px;
-  line-height: 2em;
-}
-
-.search-view .empty-list .iconfont {
-  font-size: 80px;
-}
-
 /*==== 位置信息模块 ====*/
 .lbs {
   display: block;
@@ -153,7 +99,7 @@ page {
 
 .stager-item {
   display: flex;
-  padding-bottom: 1em;
+  padding-bottom: 15px;
   border-bottom: 1px solid #f1f1f1;
 }
 
@@ -177,27 +123,33 @@ page {
 .stager-item div {
   display: block;
   font-size: 14px;
+  line-height: 1em;
 }
 
 .stager-item .title {
-  padding-top: 12px;
+  padding-top: 18px;
   font-size: 18px;
 }
 
 .stager-item .name-line {
   color: #555555;
-  line-height: 1.5em;
+  padding-top: 10px;
 }
 
 .stager-item .address-line {
   color: #999999;
-  padding-bottom: 1em;
+  padding: 10px 0 15px;
+}
+
+.stager-item .appointment-line {
+  line-height: 28px;
 }
 
 .stager-item .appointment {
+  display: inline-block;
   background: #F5F5F5;
   border-radius: 3px;
-  padding: .25em .5em;
+  padding: 0 10px;
 }
 
 .stager-item .appointment span {
