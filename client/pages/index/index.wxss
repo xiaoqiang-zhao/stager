@@ -75,7 +75,7 @@ page {
 .nav {
   padding-bottom: 15px;
   border-bottom: 1px solid #f1f1f1;
-  color: #666666;
+  color: #999;
   font-family: 'PingFangSC-Regular';
   font-size: 15px;
   word-break: keep-all;
@@ -112,12 +112,14 @@ page {
   width: 56px;
   height: 56px;
   border-radius: 56px;
-  margin: 15px;
+  margin-top: 15px;
   border: 1px solid #E0E0E0;
 }
 
 .stager-item section {
   flex: 1;
+  padding-left: 8px;
+  overflow: hidden;
 }
 
 .stager-item div {

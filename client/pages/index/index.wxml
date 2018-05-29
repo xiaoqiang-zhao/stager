@@ -26,8 +26,8 @@
     <article class="stager-item" wx:for="{{dataList}}" wx:key="id">
       <image class="header-img" bindtap="toStagerDetailPage" data-id="{{item.id}}" src="{{item.headerImgUrl}}"></image>
       <section>
-        <div class="title" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.title}} {{item.id}}</div>
-        <div class="name-line" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
+        <div class="title ellipsis" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.title}}</div>
+        <div class="name-line ellipsis" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
         <div class="address-line" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.distance}}km {{item.address}}</div>
         <div class="appointment-line">
           <span class="appointment" bindtap="appoint" data-id="{{item.id}}">

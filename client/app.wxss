@@ -40,6 +40,13 @@ section {
   font-style: normal;
 }
 
+/* 超出省略 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* 卡片 */
 .card-section {
   display: block;
@@ -50,6 +57,7 @@ section {
   background: #fff;
 }
 
+/* 卡片标题 */
 .card-section .title {
   font-size: 18px;
   line-height: 1em;
