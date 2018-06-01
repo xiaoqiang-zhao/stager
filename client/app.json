@@ -11,7 +11,7 @@
     "backgroundColor":"#ffffff",
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "white",
-    "navigationBarTitleText": "过来人",
+    "navigationBarTitleText": "附近过来人",
     "navigationBarTextStyle":"black"
   }
 }

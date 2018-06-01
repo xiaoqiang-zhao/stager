@@ -181,3 +181,7 @@ page {
 .bottom-bar .iconfont {
   font-size: 18px;
 }
+
+.index-dialog .dialog-body {
+  color: #fe6b0f;
+}

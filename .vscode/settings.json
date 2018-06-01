@@ -1,0 +1,7 @@
+{
+    "editor.tabSize": 2,
+    "beautify.config": {
+        "indent_size": 2,
+        "indent_char": " "
+    }
+}

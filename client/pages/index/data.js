@@ -36,27 +36,38 @@ module.exports = {
     dataList: [
         {
             id: 100,
+            // 标题
             title: '产品经理的晋升答辩技巧',
+            // 姓名
             name: '惠宇',
             // 微信号
             wechatAccount: 'huiyu9144',
             // 微信二维码
             wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJshSMuCKlxFeXxia84Mam6ApGFibxibQw2ia99L5NribMdB5E61bXpZvxSqpg/0?wx_fmt=png',
+            // 职业身份
             profession: '百度产品经理',
             // 身份 和 经验 tag
             experienceTag: '答辩失败和成功过',
             // 分类 tag
             classificationId: 1,
+            // 地址
             address: '百度科技园',
+            // 距离
             distance: 5,
+            // 价格
             price: 50,
+            // 见面次数
             faced: 12,
+            // 产品描述
             productDes: '我个人经历了答辩失败后，进行了深刻的思考和总结，有了一些心得。应用心得后，成功通过了后续的答辩，希望能分享我的答辩经历和经验技巧，帮助也面临晋升和答辩的朋友顺利通过。',
+            // 个人描述，分段落
             stagerDes: [
                 '毕业后一直从事产品经理工作，先后在百度地图、旅游、糯米、信息流广告等业务任职 。',
                 '有丰富的O2O产品及移动端产品经理经验，熟悉产品方法论，对产品经理职业规划有较丰富经验。希望我的经验能够帮到你。'
             ],
+            // 头像 url
             headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJshSMuCKlxFeXxia84Mam6ApGFibxibQw2ia99L5NribMdB5E61bXpZvxSqpg/0?wx_fmt=png',
+            // 内容图片url
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJsRLLul8kWIe9Odp9mbZHCUxh4xelQbNpnjUmjIsws2VG8FLVXbA1fYw/0?wx_fmt=jpeg'
         },
         {

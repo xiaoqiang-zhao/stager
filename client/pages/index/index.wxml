@@ -1,5 +1,15 @@
 <!--index.wxml-->
 <view class="container">
+  <!-- hidden: {{hidden}} -->
+  <!-- <button bindtap="openDialog">打开弹窗</button> -->
+  <dialog hidden="{{hidden}}" showCancel="{{false}}" showConfirm="{{false}}" class="index-dialog">
+    <!-- <button open-type="openSetting">打开授权设置页</button>
+    <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+    <button bindtap="closeDialog">关闭弹窗</button> -->
+    <!-- <input placeholder="这里可以输入"/>
+    <button bindtap="closeDialog">确定</button> -->
+    <div class="dialog-body">456</div>
+  </dialog>
   <!-- 头图 -->
   <view class="banner">
     <image class="banner-img" mode="widthFix" src="banner.png"></image>

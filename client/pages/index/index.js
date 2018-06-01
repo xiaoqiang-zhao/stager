@@ -1,6 +1,6 @@
 //index.js
 
-var data = require('./data.js');
+const data = require('./data.js');
 
 Page({
   data: {
@@ -8,7 +8,8 @@ Page({
     locationName: '百度科技园附近',
     dataList: data.dataList,
     classificationList: data.classificationList,
-    activedClassificationId: 0
+    activedClassificationId: 0,
+    hidden: true
   },
   onLoad() {
     // 请求授权
@@ -18,6 +19,12 @@ Page({
       key: 'dataList',
       data: data.dataList
     });
+
+
+    // wx.showModal({
+    //   title: '标题',
+    //   content: '内容'
+    // });
   },
   authorize() {
     // 先查询用户是否授权了
@@ -79,6 +86,22 @@ Page({
   search() {
     this.setData({
       isActivedSearch: false
+    });
+  },
+  // 打开弹框
+  openDialog() {
+    this.setData({
+      hidden: false
+    });
+    wx.showModal({
+      title: '标题',
+      content: '内容'
+    });
+  },
+  // 关闭弹窗
+  closeDialog() {
+    this.setData({
+      hidden: true
     });
   }
 });
