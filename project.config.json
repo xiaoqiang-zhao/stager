@@ -1,12 +1,40 @@
 {
-	"client": "./client",
-	"svr": "./server",
-	"miniprogramRoot": "./client",
-	"qcloudRoot": "./server",
-	"setting": {
-		"newFeature": true
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
 	},
-	"appid": "wx45ef0ba6e30fcc9f",
+  "client": "./client",
+  "svr": "./server",
+  "miniprogramRoot": "./client",
+  "qcloudRoot": "./server",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},  
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "wxd96a00a386b5920b",
 	"projectname": "%E9%99%84%E8%BF%91%E8%BF%87%E6%9D%A5%E4%BA%BA",
-	"condition": {}
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
 }
