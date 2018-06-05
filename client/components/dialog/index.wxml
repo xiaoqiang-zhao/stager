@@ -1,7 +1,7 @@
 <!--components/dialog/index.wxml-->
 <section class="mask" wx:if="{{!hidden}}"></section>
 <article class="dialog" wx:if="{{!hidden}}">
-  <header class="dialog-title">标题</header>
+  <header class="dialog-title">{{title}}</header>
   <section class="dialog-body">
     <slot/>
   </section>

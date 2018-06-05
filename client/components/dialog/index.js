@@ -4,6 +4,11 @@ Component({
    * 组件的属性列表
    */
   properties: {
+    // 标题 【必填字段】
+    title: {
+      type: String,
+      value: '提示'
+    },
     // 是否展示
     hidden: {
       type: Boolean,
