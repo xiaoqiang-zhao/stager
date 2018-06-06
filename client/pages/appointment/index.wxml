@@ -11,8 +11,8 @@
   </section>
   <section class="card-section title-section">
     <div class="title">
-      如何一天能熟练使用sketch
-      <span>￥20元</span>
+      {{stager.title}}
+      <span>￥{{stager.price}}元</span>
     </div>
     <div class="sub">该约见先见面后付款</div>
   </section>
