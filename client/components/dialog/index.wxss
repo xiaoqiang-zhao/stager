@@ -22,15 +22,15 @@
   z-index: 101;
   background: #FAFAFA;
   margin: -150px 50rpx 0 50rpx;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 .dialog .dialog-title {
   display: block;
+  border-bottom: 1rpx solid #dddbde;
   text-align: center;
   font-size: 18px;
-  line-height: 4em;
-  font-weight: 600;
+  line-height: 3em;
 }
 
 .dialog .dialog-body {
@@ -52,5 +52,5 @@
 
 /* 第二个按钮左边框 */
 .dialog .dialog-bottom-btns .btn:nth-child(2n) {
-   border-left: 1rpx solid #dddbde; 
+   border-left: 1rpx solid #dddbde;
 }

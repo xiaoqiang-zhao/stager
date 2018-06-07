@@ -19,28 +19,35 @@ Page({
       key: 'dataList',
       data: data.dataList
     });
-
-
-    // wx.showModal({
-    //   title: '标题',
-    //   content: '内容'
-    // });
   },
   authorize() {
+    const me = this;
     // 先查询用户是否授权了
-    // wx.getSetting({
-    //   success(res) {
-    //     if (res.authSetting['scope.userLocation']) {
-    //       wx.authorize({
-    //         scope: 'scope.userLocation',
-    //         success() {
-    //             // 用户已经同意小程序使用录音功能，后续调用 wx.startRecord 接口不会弹窗询问
-    //             // wx.startRecord()
-    //         }
-    //       });
-    //     }
-    //   }
-    // });
+    wx.getSetting({
+      success(res) {
+        // 未授权时，弹框要授权
+        if (!res.authSetting['scope.userInfo']) {
+          me.openDialog();
+        }
+        // 已授权可以直接掉接口获取用户数据
+        else {
+          wx.getUserInfo({
+            success(res) {
+              this.setData({
+                userInfo: res.userInfo
+              });
+            }
+          });
+        }
+        // 注：已授权的不可取消授权
+      }
+    });
+  },
+  onGotUserInfo(event) {
+    // 当授权拒绝时，返回 null
+    if (event.detail.userInfo) {
+      this.closeDialog();
+    }
   },
   // 约过来人
   appoint(event) {
@@ -92,10 +99,6 @@ Page({
   openDialog() {
     this.setData({
       hidden: false
-    });
-    wx.showModal({
-      title: '标题',
-      content: '内容'
     });
   },
   // 关闭弹窗

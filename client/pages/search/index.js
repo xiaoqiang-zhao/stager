@@ -34,13 +34,10 @@ Page({
   },
   // 退出搜索状态
   cancelSearch() {
-    wx.navigateTo({
-      url: '/pages/index/index'
-    });
+    wx.navigateBack();
   },
   // 搜索操作
   search(event) {
-    // event.detail.value
     this.setData({
       isShowEmpty: true
     });
