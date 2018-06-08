@@ -27,7 +27,7 @@ Page({
       success(res) {
         // 未授权时，弹框要授权
         if (!res.authSetting['scope.userInfo']) {
-          me.openDialog();
+          // me.openDialog();
         }
         // 已授权可以直接掉接口获取用户数据
         else {

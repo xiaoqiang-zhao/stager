@@ -14,7 +14,7 @@ module.exports = {
         },
         {
             id: 3,
-            text: '旅游经验'
+            text: '兴趣爱好'
         },
         {
             id: 4,
@@ -34,6 +34,7 @@ module.exports = {
         }
     ],
     dataList: [
+        // 惠宇物料部分
         {
             id: 100,
             // 标题
@@ -282,6 +283,369 @@ module.exports = {
             ],
             headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA54vuHX0rGOqDoZDHEfFuahNQYn34qC432NHUjokEQf9MvVDso5CDmmQ/0?wx_fmt=png',
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5DRn0wNPFibHSaGibF3W3cR7LicCPgoJiayuJkwOrZkey8iaHEtibVmo6L8ibg/0?wx_fmt=png'
+        },
+        // 吴亮物料部分
+        {
+            id: 200,
+            title: '当面对无法合作的工作伙伴时，我们该如何选择',
+            name: '王薇薇',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '百度产品运营',
+            experienceTag: '搞定三个难搞的同事',
+            classificationId: 1,
+            address: '百度科技园',
+            distance: '50m',
+            price: 50,
+            faced: 12,
+            productDes: '在职场中难免会遇到很难搞得合作伙伴，从最开始的对人不对事，慢慢变成了对事不对人，甚至最终患上上班倦怠症，曾经我被这种感觉深深折磨。如果你有类似的经历，我很愿意和你分享我是如何处理，并且做出选择判断的。',
+            stagerDes: [
+                '15年毕业于中国传媒大学，先后在去哪儿、知乎，百度知道担任产品运营工作，很高兴与你交流工作中遇到的各种问题。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBvU094cgIwZr17CMOSlJBoucgVyiaZBwG0dOChChla3d2UqulEGohHZQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBhV7BXCX4RFAtNZgZxnYFlIHZYGtcCZVBENHLeMpYrKqgRFGKWpXJaQ/0?wx_fmt=png'
+        },
+        {
+            id: 201,
+            title: '如何开展一次有效的用户调研',
+            name: '潘晴',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '百度UER专家',
+            experienceTag: '社会学博士',
+            classificationId: 1,
+            address: '百度科技园',
+            distance: '50m',
+            price: 150,
+            faced: 12,
+            productDes: '5年的UER经验，用户调研有哪些方式，调研的过程中又有哪些事情需要注意，很高兴与你分享探讨我的经验',
+            stagerDes: [
+                '5年UER工作经验，百度UER专家，负责过地图、糯米、网盘等明星产品相关的UER调研工作。用户调研的方法涉及到的应用场景不局限于工作，在日常生活中如何更好的沟通，如何聆听他人的感受，这些场景的底层逻辑和用户调研是一样的。相信和我交流的一个小时时间能给你不一样的收获。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBtIonINRoicxHSMOh9dstias9IdibhxlEQCrf3g3jaicAPs6kC35cuJDtQQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBXjpOuibEXaZiaeaPlpyqUU1gL8ibYIFFwDG5uAoJribxhA8sYSaTFEt5Iw/0?wx_fmt=png'
+        },
+        {
+            id: 202,
+            title: '如何利用下班时间快速升值',
+            name: '张扬',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '网易项目经理',
+            experienceTag: '自考过CPA',
+            classificationId: 1,
+            address: '网易大楼',
+            distance: '50m',
+            price: 50,
+            faced: 20,
+            productDes: '过去的两年年里，我利用下班时间，零基础学了会计，考过了CPA，自学了经济学、金融学、心理学等各个领域的知识。同事们都惊讶于我的效率，我也向他们分享了我的经验，他们都表示受益匪浅，希望我的这份经历对你有用。',
+            stagerDes: [
+                '现任网易新闻项目经理，学习爱好者，自考过CPA，会点代码，懂点心理，可以聊经济学，欢迎交换思想.'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxB3pZUYmiaGeIO7EibmR2tdScRicva1ia5iax3Kq14rF3xFeqXnznkx85SDDg/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBUm5WcTOuRS2vKI7Y4tbPjJkpicecKictkt7j6s0Yp96Nb0OuV3YzlzLA/0?wx_fmt=png'
+        },
+        {
+            id: 203,
+            title: '我是如何通过自媒体月入过万的',
+            name: '龙奴电影',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '自媒体工作者',
+            experienceTag: '月收入过万，现已开工作室',
+            classificationId: 2,
+            address: '辉煌国际大厦',
+            distance: '2km',
+            price: 100,
+            faced: 5,
+            productDes: '都说最近三年是自媒体的红利期，我虽然没有能大红大紫，但还是实现了月薪过万，30w+粉丝，我很愿意和你分享我的经历，当然也欢迎你关注我的头条号龙奴电影，一本正经讲电影，生情并茂讲故事',
+            stagerDes: [
+                '原360产品经理，工作两年后洞悉自媒体红利，毅然辞职后全力投入，现头条号龙奴电影运营者，粉丝30w+，月收入过万，开了自己的工作室。做产品和做内容一样，只要你能懂用户想看什么，需要什么，就能产出好的内容，而好的内容永远是稀缺的，有竞争力的，很期待与各行各业的你相遇，互相制造启发感。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBiauut44PS22l9WggCTrql15T1KzIK9h2dH2YaU7sG2vYlxWMup0EggQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxByib4ucNMjcNmdbiavTznr0r5VY76Y8AdH69uuE5ktRZMCP6XlnwSVSXw/0?wx_fmt=png'
+        },
+        {
+            id: 204,
+            title: '如何快速融入新的工作环境，建立朋友圈',
+            name: '蔡培',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '百度产品经理',
+            experienceTag: '五年四家公司',
+            classificationId: 1,
+            address: '百度科技园',
+            distance: '50m',
+            price: 50,
+            faced: 11,
+            productDes: '毕业五年，跳了三回槽。当第一次跳槽时，我本身是一个慢热的人，还略有一些社交恐惧症，我发现如何快速融入一个新的团队是一门学问，也思考了一些方法并付出了相关实践。我愿意与分享我三次跳槽后如何快速融入团队的经历。',
+            stagerDes: [
+                '13年毕业于北京邮电大学。呆过创业公司，后就职于唱吧、头条，现任百度产品经理。随时约，随时聊，保证不冷场，话题不限，主场话题：产品、运营、音乐、篮球、跳槽。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBMibx6tVFL81lsE5Whzzvj1pUBUcx6YNNiaMjknnm4z1LqncibicsxFGrvQ/0?wx_fmt=jpeg',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBxbpNf2ibBWkSaypuRqIrbic7QvuuNTuia75nPMKwDlMicma1e1yibibo52HQ/0?wx_fmt=png'
+        },
+        {
+            id: 205,
+            title: '幼儿园操办指南，帮助每位焦虑的家长',
+            name: '王倩',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '宝宝知道产品运营',
+            experienceTag: '2个孩子的妈妈',
+            classificationId: 7,
+            address: '奎科大楼',
+            distance: '100m',
+            price: 50,
+            faced: 21,
+            productDes: '怕孩子输在起跑线上，想给他最好的教育，帮小孩找幼儿园真是件很辛苦的事。我很愿意和你分享我的经历，希望能对你有帮助',
+            stagerDes: [
+                '现任宝宝知道产品运营，同时也是2个孩子的妈妈。很期待与各行各业的你共享育儿经验，减少弯路，与孩子一起成长。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBv8PIIIyaVtN6A5Z1ziaujnibndMKuQJVvZsuCk6G8osSa8PtabvotiaDA/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBHPn8LRic6h4k4ryUsBe39DB5pKyF3qhr8jvnbnmHw2eh6Q406yvwq1A/0?wx_fmt=png'
+        },
+        {
+            id: 206,
+            title: '聊一聊我是如何经营一家711便利店的',
+            name: '王志凯',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '西二旗7-11店长',
+            experienceTag: '北京3家7-11店店长',
+            classificationId: 2,
+            address: '西二旗7-11门店',
+            distance: '1.1km',
+            price: 100,
+            faced: 23,
+            productDes: '7年711店长，小小的店面，其中包含了我7年的运营心血，如果你感兴趣的话，我很愿意和分享我的开店运作经历',
+            stagerDes: [
+                '毕业于北京邮电大学，最开始做7-11，父母和很多身边的朋友都不太能理解。但在我的视角里，每一份货物的出售，看到自己布置出来的精美货架，都让我感受到了切切实实的实感，我很愿意与你分享这份实感，也期待你与我分享你的工作中那些有意思的感受。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBWRA0SpXpcYDuhbV1JRfM7gHpmVEIzxAY5l35HSROnbibmu3IACmX8Cg/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBytp5zJ3P71JyVBpfHGEqaWQLby5gTTxVRzjz4pjG6OE4998YKPicDTg/0?wx_fmt=png'
+        },
+        {
+            id: 207,
+            title: '聊一聊如何孵化运营一个网红',
+            name: '赵小龙',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '网红孵化工作室',
+            experienceTag: '曾任新浪微博产品经理',
+            classificationId: 2,
+            address: '新浪总部大厦',
+            distance: '500m',
+            price: 100,
+            faced: 13,
+            productDes: '曾在新浪微博工作五年，现在创业中，从事孵化网红的项目，我很愿意和你分享一个网红是如何诞生的。',
+            stagerDes: [
+                '曾任新浪微博产品经理，现在自己组团队组成了网红孵化的工作室。得用户注意力者得天下。可聊产品，可聊运营、可聊网红。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBfc3ic9z2dLXL6kn7UO4GbuPicshPba3OUnBuc7jH21BptKPJS6siaCaNg/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBPMWGdkHLUQ7gDSKIj677dOCC28VlLYKjUxHY4xLtEyINI5AXhWUf5g/0?wx_fmt=png'
+        },
+        // 润民物料部分 Yamatepis
+        {
+            id: 300,
+            title: '手把手带你入门吉他弹唱',
+            name: '张润民',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: '',
+            profession: '百度交互设计师',
+            experienceTag: '4年吉他爱好者',
+            classificationId: 3,
+            address: '百度科技园',
+            distance: '500m',
+            price: 50,
+            faced: 6,
+            productDes: '4年多的吉他经历，1年多的指弹，主要玩玩押尾桑的曲子，可以聊聊如何入门的问题，以及自学中遇到的坑、瓶颈，或者基础乐理，包括和弦、节奏、音阶等等，以及吉他弹唱基本知识，或者一把吉他如何上台伴奏。',
+            stagerDes: [
+                '毕业于四川大学，目前就职百度从事交互设计职位。关于吉他经历，学校期间多次参加文艺表演，工作期间参加了百度UXC年会表演。较深刻的研究了关于吉他方面的一些乐理。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBJP51eicnquUecjD8uIPCCDDfbrrQHh3JrrIBXD3F7LLLhSJ5wmPS9bQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBl8WU96Uw0KbuwZVjMb4bCeMCzMoa1OrGZbCj8dNuZpXLVt2micnXQMA/0?wx_fmt=png'
+        },
+        {
+            id: 301,
+            title: '前端工程师的发展路径',
+            name: '吴衡',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '微博前端工程师',
+            experienceTag: '独立开发者',
+            classificationId: 1,
+            address: '新浪总部大厦',
+            distance: '500m',
+            price: 100,
+            faced: 12,
+            productDes: '5年多的从业经验，自己有很明确的前端工程师的发展路径规划，也和从业10年多的大牛探讨过未来该职业的发展。可以和你探讨前端工程师怎么走比较快，学哪些知识比较利于未来的发展。',
+            stagerDes: [
+                '从业5年的前端开发从业者，目前在微博从事技术架构工作，关注多个技术领域，并且有多个线上 app 开发和运营的经验，业余目前仍然是一个独立开发者，喜欢自己思考产品，然后用技术手段把他们实现出来，5年来一直在技术领域耕耘，也涉猎其他诸多领域，欢迎大家来探讨。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBIC2X3QibWjiaKVuBV9aCTkKWicZ7MD8mbXuewDFuUxQduqPdrP3YRVqCQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBIC2X3QibWjiaKVuBV9aCTkKWicZ7MD8mbXuewDFuUxQduqPdrP3YRVqCQ/0?wx_fmt=png'
+        },
+        {
+            id: 302,
+            title: '网易产品经理方法论',
+            name: '张璐',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '网易产品经理',
+            experienceTag: '资深产品人',
+            classificationId: 1,
+            address: '网易大楼',
+            distance: '500m',
+            price: 100,
+            faced: 5,
+            productDes: '我们可以讨论将一个概念真正落地的方法。一个大型产品的产品设计实际步骤，具体需求点分析，需求点拆解细化、产品功能架构搭建。产品规划及详细设计要点。以及如何快速培养’产品感。',
+            stagerDes: [
+                '师范院校毕业、一年教师经验，3年互联网经验。2017.2-至今网易产品经理，通过创新方法挖掘用户需求，完成多个垂直方向实体化推进，项目数据突出。2015.8-2017.2 搜狐视频产品负责全部页面、后端服务、播放器产品设计。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBVrV3Hc4EzR74xfB2lp3WomsZg3ezfEhMS4jFP0ZSdkzXKJffXVaFWw/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxB2olS1SpuS9dYA6L9JSdPzxSuOZTzJR8B1lPxwMShbfPEB55pd1rRhA/0?wx_fmt=png'
+        },
+        {
+            id: 303,
+            title: '定制一场无与伦比的日本之旅',
+            name: '尹禾苗',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '滴滴视觉设计师',
+            experienceTag: '日本旅游达人',
+            classificationId: 3,
+            address: '滴滴公司大厦',
+            distance: '2km',
+            price: 100,
+            faced: 6,
+            productDes: '按照您的需求和预算，规划最适合您的行程，推荐性价比较高的机票和酒店交通，介绍省钱小秘籍，告诉您很有特色的店家，想买的潮牌，想去的动漫主题店，个性需求帮您实现。',
+            stagerDes: [
+                '本人曾去过日本旅行有5次，因为自学过日语，曾经在富士山脚下的小卖部和日本老太太讨论中日关系；每次赴日都会在商场和店员讨论当季的流行服饰，而从未被发现是外国人。除了旅行，本人对日本动漫、日本音乐、潮流时尚等方面也小有研究，感兴趣的亲也可以找我聊聊'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBa7nrb2byFjGdwfKlzws2cukZG3lyC3FIsFbIvqk1iaYiayqyamMMPfgQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBrISozXVDWbBJ78BeWLQ3h4xpKFCfu3ia8op7zVKW2WAiabMxc8icCy1TA/0?wx_fmt=png'
+        },
+        {
+            id: 304,
+            title: '规划一次欧洲二战的旅游路线',
+            name: '陈哲',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '百度旅游产品经理',
+            experienceTag: '欧洲旅游达人',
+            classificationId: 3,
+            address: '鹏寰国际大厦',
+            distance: '2km',
+            price: 150,
+            faced: 3,
+            productDes: '法国的浪漫、德国的严谨，瑞士的雪山，历史悠久古老的欧洲是众多旅游爱好者心驰神往之地。可以为你规范欧洲旅游目的地和景点的选择，欧洲二战旅游线路设计，古堡游、博物馆游的设计。',
+            stagerDes: [
+                '在加拿大马尼托巴大学历史专业毕业，欧洲旅游经历丰富、人文知识丰富。对于二战历史、文化和欧洲古迹、景点有较多的了解。尤为喜欢柏林及波茨坦，无忧宫是必去之地，它是一栋极尽奢华纤巧之能事的洛可可式宫殿。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBlCvx3ibM0tTTgtcQd43M8fibMsr5v3kYSLpiaFKdI4Mebf0FrYOIbgo1Q/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBlCvx3ibM0tTTgtcQd43M8fibMsr5v3kYSLpiaFKdI4Mebf0FrYOIbgo1Q/0?wx_fmt=png'
+        },
+        {
+            id: 305,
+            title: '从零开始炒股',
+            name: '张庆',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '百度产品经理',
+            experienceTag: '5年炒股经历',
+            classificationId: 2,
+            address: '网易大楼',
+            distance: '500m',
+            price: 150,
+            faced: 18,
+            productDes: '投资是一门技术学问，有一定门槛，如果你买一双鞋都会花 三个小时打开八个网页比较，那你就更应该决定在股市中投入积蓄前学习一些炒股知识，我们可以按照答疑模式进行讨论，也可以给你介绍下为什么炒股票，涨跌停、仓位、大盘、空等等词汇扫盲，如何观察一只股票的交易量，运用三个假设和四个要素分析股票等等。',
+            stagerDes: [
+                '毕业于清华大学，目前就职于百度金融事业部。他从事过风险投资及股票交易员。他希望自己的经验能够帮助希望了解股市投资的所有朋友少走弯路，在股市的大众狂热中保持冷静，在群体万念俱灰时发现机会。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxByMCDe6fD5WIERmmibY4FR6UThBpLtONDkNDC5v7uakIxL8xb98iaBBwA/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxByMCDe6fD5WIERmmibY4FR6UThBpLtONDkNDC5v7uakIxL8xb98iaBBwA/0?wx_fmt=png'
+        },
+        {
+            id: 306,
+            title: '如何通过写作提升逻辑表达能力',
+            name: '郑诗冰',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '网易公关',
+            experienceTag: '百度百家专栏作者',
+            classificationId: 1,
+            address: '网易大楼',
+            distance: '500m',
+            price: 150,
+            faced: 10,
+            productDes: '清晰的写作体现其清晰的思路，优秀的写作者懂得沟通，可以聊聊阅读书籍的一些方法，结构化的书写读后感及书评，如何训练书写的逻辑能力。建立碎片化整理的习惯。以及降低预期、培养规律的习惯并建立积极的正反馈机制。',
+            stagerDes: [
+                '毕业于北京大学，目前就职于网易，从事公关工作，是百度百家专栏作者，专栏作者给自己写作和公关写作带来了更加充实的积淀，读书和电影是我最大乐趣，还算半个科技极客，业余兴趣能够带来更多的灵感和启发。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBW76tcpo6pZWEBPTT3icyaYmpGhvahQo5NmGEbk3pKvRibxW0CchXdXfA/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBNjy1zicUq2iaAgN4F8gSluGXPOJ6wIgzzKiafialZfyxthL7pcR7XSspSQ/0?wx_fmt=png'
+        },
+        {
+            id: 307,
+            title: '产品工作汇报，如何快提高演讲能力',
+            name: '陆飞',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '百度产品经理',
+            experienceTag: '头马俱乐部会员',
+            classificationId: 1,
+            address: '百度科技园',
+            distance: '500m',
+            price: 100,
+            faced: 12,
+            productDes: '演讲在工作汇报、竞聘、 述职、产品、路演等等都极为需要。和你探讨如何克服演讲时的紧张，如何提高演讲技巧，及提高演讲感染力。可以分享给你一套行之有效的演讲套路，应对一些场合的即兴演讲，了解一套科学的台风。',
+            stagerDes: [
+                '毕业后就职于百度，网易头马俱乐部会员，演讲达人，喜欢运用理论阐述+案列学习+实战演练+针对性点评的方式提高自己及他人的演讲水平，效果较为显著。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBl0iacgQXhsb6SWMbsG16Ys0KDIeBAtxJZamxgNbIicMzcydCkE6lcCFg/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBzlBLY1TQNbx2ibUicUEciac1aUjKLZh364N9ezGJroiabY65wgasQkTgpQ/0?wx_fmt=png'
+        },
+        {
+            id: 308,
+            title: '如何实现技术、运营、产品之间转岗',
+            name: '张娟',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '网易高级产品经理',
+            experienceTag: '职业规划达人',
+            classificationId: 1,
+            address: '网易大楼',
+            distance: '500m',
+            price: 80,
+            faced: 8,
+            productDes: '产品运营、技术各工种的职能介绍，运营转产品，技术转产品等各岗位如何做到的转岗切换。针对个人合理规划长期短期的职业发展和规划。',
+            stagerDes: [
+                '2013-2015在人人网从事技术，随后从事策划工作，2016至今在网易从事产品工作，从事过技术，市场、 运营产品等工作。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBnvpxCibmW5GAvHXCKm3ZicR3SSN8Q3HkibPvibbtUpJVxOj9cpBLK9Btqg/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBnvpxCibmW5GAvHXCKm3ZicR3SSN8Q3HkibPvibbtUpJVxOj9cpBLK9Btqg/0?wx_fmt=png'
+        },
+        {
+            id: 309,
+            title: '如何克服两性沟通障碍',
+            name: '任小青',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '百度用户研究',
+            experienceTag: '心理咨询师',
+            classificationId: 2,
+            address: '百度科技园',
+            distance: '500m',
+            price: 120,
+            faced: 20,
+            productDes: '可以与聊聊如何打破男女的沟通障碍？如何在男女关系中掌握主动？如何解决男女朋友之间矛盾的难点？',
+            stagerDes: [
+                '2015-至今在百度从事用户研究工作。同时，研究的是人和互联网、人和机器之间的关系。 如果你在寻找精准用户、洞悉用户需求上有需求，我的专业知识和或许可以帮到你。',
+                '在我看来，越是懂得在两性关系中如何良性互动的人，越能了解用户，也越能把握和预见互联网创业的行业先机，这两个话题相辅相成，希望与你一起探讨人与人之间的关系。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBuoBR1QMxL0ckeomgmkcCWGicY0Pr3dZuaa1qnoic7iaN91x2JGGue7sWA/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBTNZI8Qk0c7ibtLrS8icNr98kGwxzouprUqnNocdoH9vghhXtfsbdD4Aw/0?wx_fmt=png'
         }
     ]
 };

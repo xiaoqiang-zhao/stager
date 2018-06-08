@@ -42,7 +42,11 @@
   </scroll-view>
   <view class="stager-list">
     <article class="stager-item" wx:for="{{dataList}}" wx:key="id">
-      <image class="header-img" bindtap="toStagerDetailPage" data-id="{{item.id}}" src="{{item.headerImgUrl}}"></image>
+      <image class="header-img"
+             mode="aspectFit"
+             bindtap="toStagerDetailPage"
+             data-id="{{item.id}}"
+             src="{{item.headerImgUrl}}"></image>
       <section>
         <div class="title ellipsis" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.title}}</div>
         <div class="name-line ellipsis" bindtap="toStagerDetailPage" data-id="{{item.id}}">{{item.name}} {{item.experienceTag}}/{{item.profession}}</div>
