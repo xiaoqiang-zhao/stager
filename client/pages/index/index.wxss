@@ -18,7 +18,7 @@ page {
   display: block;
   width: 100%;
 }
-
+/* 
 .banner .title-section {
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@ page {
   display: block;
   color: #524845;
   font-size: 29.96rpx;
-}
+} */
 
 .banner .search-section {
   position: absolute;
@@ -58,6 +58,7 @@ page {
   right: 35rpx;
   font-size: 42rpx;
   font-weight: 700;
+  color: #fff;
 }
 
 /*==== 位置信息模块 ====*/

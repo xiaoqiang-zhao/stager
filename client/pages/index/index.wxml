@@ -21,10 +21,10 @@
   <!-- 头图 -->
   <view class="banner">
     <image class="banner-img" mode="widthFix" src="banner.png"></image>
-    <section class="title-section">
+    <!-- <section class="title-section">
       <text class="main-title">找过来人</text>
       <text class="subhead">随时找附近的过来人聊聊</text>
-    </section>
+    </section> -->
     <section class="search-section">
       <i class="iconfont icon-search" bindtap="activeSearch"></i>
     </section>

@@ -32,8 +32,8 @@ page {
   width: 100%;
   padding: 30px 0;
   text-align: center;
-  background: #6d3f20;
   color: #fff;
+  background-size: auto 100%;
 }
 
 .banner .icon-star {

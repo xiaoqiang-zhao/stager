@@ -19,6 +19,11 @@ Page({
       key: 'dataList',
       data: data.dataList
     });
+
+    wx.setStorage({
+      key: 'classificationList',
+      data: data.classificationList
+    });
   },
   authorize() {
     const me = this;

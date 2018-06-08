@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <section class="banner">
+  <section class="banner" style="background-image: url({{classification.detailBannerImgUrl}});">
     <i class="iconfont icon-star {{isCollected ? 'collected' : ''}}" bindtap="showCollectedToast"></i>
     <image class="header-img" src="{{stager.headerImgUrl}}"></image>
     <div class="title">

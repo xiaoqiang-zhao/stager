@@ -3,11 +3,14 @@
 Page({
   data: {
     stager: {},
+    // 所属分类信息
+    classification: {},
     isCollected: false,
     stagerId: 0
   },
   onLoad(option) {
     const me = this;
+    // 获取详情页信息
     wx.getStorage({
       key: 'dataList',
       success(res) {
@@ -17,6 +20,25 @@ Page({
             me.setData({
               stager: item,
               stagerId: option.stagerId
+            });
+            me.setClassification(item.classificationId);
+            return true;
+          }
+        });
+      }
+    });
+  },
+  // 设置所属分类
+  setClassification(classificationId) {
+    const me = this;
+    wx.getStorage({
+      key: 'classificationList',
+      success(res) {
+        const classificationList = res.data;
+        classificationList.some(item => {
+          if (item.id == classificationId) {
+            me.setData({
+              classification: item
             });
             return true;
           }

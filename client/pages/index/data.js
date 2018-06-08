@@ -1,3 +1,10 @@
+// 职场
+const job = 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajmDrJPBVgu0jY0ed7Pbt1TNoSjYwRWnNycwqFj8bKZjzrdon5OUUhHg/0?wx_fmt=png';
+// 生活
+const life = 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRl0FWWvZ4b3sBLJkvRH76jIdsthawFNDEvvLJSRzXSfGmDFEEX4wPQ/0?wx_fmt=png';
+// 兴趣
+const interesting = 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajxtYNeXx4icWIfTHWl9XfKIuusANDLEibFrDTIgfRwNplJvHMWJ6F3H7w/0?wx_fmt=png';
+
 module.exports = {
     classificationList: [
         {
@@ -6,31 +13,38 @@ module.exports = {
         },
         {
             id: 1,
-            text: '职场发展'
+            text: '职场发展',
+            detailBannerImgUrl: job
         },
         {
             id: 2,
-            text: '行业经验'
+            text: '行业经验',
+            detailBannerImgUrl: job
         },
         {
             id: 3,
-            text: '兴趣爱好'
+            text: '兴趣爱好',
+            detailBannerImgUrl: interesting
         },
         {
             id: 4,
-            text: '前沿科技'
+            text: '前沿科技',
+            detailBannerImgUrl: job
         },
         {
             id: 5,
-            text: '面试跳槽'
+            text: '面试跳槽',
+            detailBannerImgUrl: job
         },
         {
             id: 6,
-            text: '职场技能'
+            text: '职场技能',
+            detailBannerImgUrl: job
         },
         {
             id: 7,
-            text: '生活经验'
+            text: '生活经验',
+            detailBannerImgUrl: life
         }
     ],
     dataList: [
