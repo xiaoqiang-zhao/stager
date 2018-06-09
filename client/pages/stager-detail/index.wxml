@@ -9,7 +9,7 @@
     </div>
     <div class="sub">{{stager.experienceTag}}<i class="space"></i>{{stager.profession}}</div>
     <div class="address-line">
-      <i class="iconfont icon-local"></i> {{stager.address}} {{stager.distance}}km
+      <i class="iconfont icon-local"></i> {{stager.address}} {{stager.distance}}
     </div>
   </section>
   <section class="card-section content-section">
