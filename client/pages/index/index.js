@@ -1,10 +1,13 @@
 //index.js
 
 const data = require('./data.js');
+const utils = require('../../utils/util.js');
 
 Page({
   data: {
     userInfo: {},
+    nickName: '',
+    date: '',
     locationName: '百度科技园附近',
     dataList: data.dataList,
     classificationList: data.classificationList,
@@ -13,7 +16,7 @@ Page({
   },
   onLoad() {
     // 请求授权
-    this.authorize();
+    // this.authorize();
 
     wx.setStorage({
       key: 'dataList',
@@ -24,6 +27,10 @@ Page({
       key: 'classificationList',
       data: data.classificationList
     });
+
+    this.setData({
+      date: utils.formatTime(new Date)
+    });
   },
   authorize() {
     const me = this;
@@ -32,15 +39,13 @@ Page({
       success(res) {
         // 未授权时，弹框要授权
         if (!res.authSetting['scope.userInfo']) {
-          // me.openDialog();
+          me.openDialog();
         }
         // 已授权可以直接掉接口获取用户数据
         else {
           wx.getUserInfo({
             success(res) {
-              this.setData({
-                userInfo: res.userInfo
-              });
+              me.setUserInfo(res.userInfo);
             }
           });
         }
@@ -51,8 +56,15 @@ Page({
   onGotUserInfo(event) {
     // 当授权拒绝时，返回 null
     if (event.detail.userInfo) {
+      this.setUserInfo(event.detail.userInfo);
       this.closeDialog();
     }
+  },
+  setUserInfo(userInfo) {
+    this.setData({
+      userInfo: userInfo,
+      nickName: userInfo.nickName
+    });
   },
   // 约过来人
   appoint(event) {

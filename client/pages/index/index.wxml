@@ -29,10 +29,11 @@
       <i class="iconfont icon-search" bindtap="activeSearch"></i>
     </section>
   </view>
-
+  <!-- 地址行 -->
   <view class="lbs">
     <i class="iconfont icon-local"></i> {{locationName}}
   </view>
+  <!-- 分类导航 -->
   <scroll-view class="nav" scroll-x="true">
     <text wx:for="{{classificationList}}"
           wx:key="{{item.id}}"
@@ -40,6 +41,7 @@
           data-id="{{item.id}}"
           bindtap="onChangeClassification">{{item.text}}</text>
   </scroll-view>
+  <!-- 列表页 -->
   <view class="stager-list">
     <article class="stager-item" wx:for="{{dataList}}" wx:key="id">
       <image class="header-img"

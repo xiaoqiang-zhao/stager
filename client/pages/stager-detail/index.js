@@ -1,8 +1,10 @@
 // 过来人详情页
+const utils = require('../../utils/util.js');
 
 Page({
   data: {
     stager: {},
+    date: '',
     // 所属分类信息
     classification: {},
     isCollected: false,
@@ -26,6 +28,10 @@ Page({
           }
         });
       }
+    });
+
+    this.setData({
+      date: utils.formatTime(new Date)
     });
   },
   // 设置所属分类

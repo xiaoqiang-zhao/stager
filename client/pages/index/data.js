@@ -85,26 +85,88 @@ module.exports = {
             // 内容图片url
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJsRLLul8kWIe9Odp9mbZHCUxh4xelQbNpnjUmjIsws2VG8FLVXbA1fYw/0?wx_fmt=jpeg'
         },
+        // {
+        //     id: 2001,
+        //     title: 'AA',
+        //     name: '吴亮',
+        //     wechatAccount: 'Yamatepis',
+        //     wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+        //     profession: 'aa',
+        //     experienceTag: 'bb',
+        //     classificationId: 1,
+        //     address: '百度科技园',
+        //     distance: '50m',
+        //     price: 50,
+        //     faced: 12,
+        //     productDes: '',
+        //     stagerDes: [
+        //         ''
+        //     ],
+        //     headerImgUrl: '',
+        //     contentImgUrl: ''
+        // },
         {
-            id: 101,
-            title: '了解游戏活动的策略设计',
-            name: '周婧',
-            wechatAccount: 'huiyu9144',
-            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0c0HHGNmvsicq066iasvOZiat1L2BpAUDuMw9RtL4zPE3JcmZOOJcvLba6pdopuUdleN8uzV9UicVsc0g/0?wx_fmt=png',
-            profession: '网易游戏运营',
-            experienceTag: '游戏行业沉浮3年',
-            classificationId: 2,
-            address: '网易大楼',
+            id: 300,
+            title: '手把手带你入门吉他弹唱',
+            name: '张润民',
+            wechatAccount: 'runmin_zhang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajGVSBCeqd9JyczlKbXJ0M9xb7gB7d4X46icEpiatGDALveUS3KpOY1b1g/0?wx_fmt=jpeg',
+            profession: '百度交互设计师',
+            experienceTag: '4年吉他爱好者',
+            classificationId: 3,
+            address: '百度科技园',
+            distance: '500m',
+            price: 50,
+            faced: 6,
+            productDes: '4年多的吉他经历，1年多的指弹，主要玩玩押尾桑的曲子，可以聊聊如何入门的问题，以及自学中遇到的坑、瓶颈，或者基础乐理，包括和弦、节奏、音阶等等，以及吉他弹唱基本知识，或者一把吉他如何上台伴奏。',
+            stagerDes: [
+                '毕业于四川大学，目前就职百度从事交互设计职位。关于吉他经历，学校期间多次参加文艺表演，工作期间参加了百度UXC年会表演。较深刻的研究了关于吉他方面的一些乐理。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBJP51eicnquUecjD8uIPCCDDfbrrQHh3JrrIBXD3F7LLLhSJ5wmPS9bQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBl8WU96Uw0KbuwZVjMb4bCeMCzMoa1OrGZbCj8dNuZpXLVt2micnXQMA/0?wx_fmt=png'
+        },
+        {
+            id: 400,
+            title: '二流大学的毕业生怎么一步步走进百度',
+            name: '赵晓强',
+            wechatAccount: 'zhao-xiaoqiang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajqC0Ra6QslQr8dQOiaryC1ZKM4ibzFPicRZs3hY6CXGbiahXkxpv3FqnDbA/0?wx_fmt=jpeg',
+            profession: '百度高级工程师',
+            experienceTag: '前端工程师',
+            classificationId: 1,
+            address: '百度科技园',
             distance: '50m',
             price: 50,
-            faced: 17,
-            productDes: '我是一个做了3年游戏策划的老兵，从wap游戏开始，一直到今天的手游。职位也从一个小兵，到一个策划人，其中有许多游戏活动的经历。',
+            faced: 12,
+            productDes: '聊聊我是怎么从一个二流大学非计算机专业的毕业生一步步自我突破最后进入百度的。一路走来很是艰辛，之前面试总是碰壁，但现在我作为面试官我就是别人的那面墙。所以我想和你聊得不仅是简历怎么写实用的面试经验有哪些，而是从面试官和被面试者两个角度来阐述团队需要什么样的人和怎么一步步提升自己。',
             stagerDes: [
-                '在对「游戏体验」追本溯源的过程中，发现一切都顺应于人性的设计，于是一头扎进认知科学、社会心理学、脑神经科学、行为科学、等领域，进行跨领域学习。',
-                '在对「人的游戏体验」越来越了解的同时，我发现我也渐渐拥有了设计自己人生体验的能力，并且通过种种原理和应用，让自己的生活幸福度和生命品质都有了很大的提升。'
+                '本人毕业于一所二本大学，非计算机相关专业，毕业后在北京工作，在国企、外企、创业公司都待过，最后入职百度稳定下来。本人天分不算太高，也没遇到什么贵人相助，拼自己的努力一步步打怪升级，其中的迷茫和困难绝对深有体会。',
+                '入职百度后负责所在团队前端岗的简历筛选和面试，也帮助其他团队招人，在百度的这段时间里看过的简历上千面试过的人上百，发现了很多共性的问题，这些问题当初我有现在很多人依然有，回看自己的过往，如果现在的自己能给当初的自己一些意见该有多好。'
             ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJsaF0aWgRloLUam9wthrvibXUUNHHNibrQuOTdbrwVnqJlrbGITM9q1ajA/0?wx_fmt=jpeg',
-            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJsymTexFfg6Y2d2EQkysR0WAV6OU5wNibTmb4fQ8eRF4RD2Tq75xyaVpQ/0?wx_fmt=png'
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0dvic5iaS3FbJ9LbibQ5YlzdM2LLfrMzXWgofy34NmTJicEuCBDpbDZf1qqKPOUNqhjaZrF1IcFcfmyDA/0?wx_fmt=jpeg',
+            contentImgUrl: ''
+        },
+        {
+            id: 401,
+            title: '怎么玩转户外',
+            name: '赵晓强',
+            wechatAccount: 'zhao-xiaoqiang',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajqC0Ra6QslQr8dQOiaryC1ZKM4ibzFPicRZs3hY6CXGbiahXkxpv3FqnDbA/0?wx_fmt=jpeg',
+            profession: '百度高级工程师',
+            experienceTag: '6年户外领队经验',
+            classificationId: 1,
+            address: '百度科技园',
+            distance: '50m',
+            price: 50,
+            faced: 12,
+            productDes: '聊聊怎么寻找靠谱的户外团队。户外锻炼身体愉悦心情花费又比旅游小很多，在北京很幸运的遇到了一个个爱玩的朋友，我把他们聚在一起彼此成了朋友。我们这群人不以盈利为目的，每周在山间谈笑风生。如果你想成为一名驴友，我可以给你一个清单，让你在半年内成为一名合格的驴友一年内成为一名合格的领队，教你如何快速制定符合自己爱好的线路，如何在野外识路，如何处理野在外遇到的各种问题。',
+            stagerDes: [
+                '6 年的户外经验，6年的时间爬遍北京附近大小山头，积累了大量的户外人脉和经验。',
+                '自认为是一名合格的驴友和背包客，除了北京周边的大小山头，国内背包登过泰山的顶吃过成都的辣倒过茶卡盐湖的影转过拉萨的布达拉，国外背包徜徉在曼谷考山路扎营在芭提雅海滩，甚至飞到地球的另一端在美国国会山前留下和爱人的身影。',
+                '我愿意和你分享我的经验，经历的人多了发现并不是每个人都能发现旅行的乐趣的，这其中有一部分人面对规划行程困难望而却步，又有一部分人通过旅行社成为了游客却找不到其中的乐趣。我可以和你分享我是怎么快速准备一场旅行和怎么在旅行中找到乐趣的经验。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0dvic5iaS3FbJ9LbibQ5YlzdM2LLfrMzXWgofy34NmTJicEuCBDpbDZf1qqKPOUNqhjaZrF1IcFcfmyDA/0?wx_fmt=jpeg',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0dvic5iaS3FbJ9LbibQ5YlzdM2luzMhvHfv3wfibmdnQS7Q486NEWyCZ7X2wUQjKVnJk1eSV3TMVibbw5g/0?wx_fmt=jpeg'
         },
         {
             id: 102,
@@ -128,6 +190,27 @@ module.exports = {
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5VibyK3eiaJ2A9acmiajDCiaUD89vaWbibAOksLsTQTrSSJOknj91b70XM1g/0?wx_fmt=png'
         },
         {
+            id: 104,
+            title: '探讨技术人员的职业发展',
+            name: '王华',
+            wechatAccount: 'huiyu9144',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0c0HHGNmvsicq066iasvOZiat1L2BpAUDuMw9RtL4zPE3JcmZOOJcvLba6pdopuUdleN8uzV9UicVsc0g/0?wx_fmt=png',
+            profession: '网易技术专家',
+            experienceTag: '做技术多年',
+            classificationId: 1,
+            address: '网易大楼',
+            distance: '50m',
+            price: 100,
+            faced: 11,
+            productDes: '我作为一个技术人员，从事互联网开发超过5年，其中包括在百度的3年技术工作，希望能够与同学一起探讨技术职业发展相关的话题。',
+            stagerDes: [
+                '曾就职于百度，2015年晋升为高级工程师。经历过电商、支付、O2O 等业务的大前端开发和团队管理。做了前端的用户行为系统前身，广泛应用于业务。',
+                '后来百度有啊拆分成创业公司，创始团队成员，公司 A 轮 5000w 刀，此时开始逐步接触团队管理工作。一年多时间业务上也经历包括社区，O2O 商城，交易系统。经历创业技术团队之痛，经历创业失败。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5Z1lCNlFgJEFsvOpaoKboA28CChcyNMaLefRzUQyLbhDUMKHicOicia64g/0?wx_fmt=jpeg',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5jIqoQb7nrKRayVpIfTA3Rib08KibWAS3oDlPU7nXFLfDvd0fNiaNrv3wg/0?wx_fmt=png'
+        },
+        {
             id: 103,
             title: 'AI产品与传统产品的差异',
             name: '汤浩泽',
@@ -148,25 +231,86 @@ module.exports = {
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5Rw3uTK7YjxFibySpW6zT5iafAO6PXTlicrqO45qAEIwhibCxicJf1TThPkQ/0?wx_fmt=png'
         },
         {
-            id: 104,
-            title: '探讨技术人员的职业发展',
-            name: '王华',
+            id: 207,
+            title: '聊一聊如何孵化运营一个网红',
+            name: '赵小龙',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '网红孵化工作室',
+            experienceTag: '曾任新浪微博产品经理',
+            classificationId: 2,
+            address: '新浪总部大厦',
+            distance: '500m',
+            price: 100,
+            faced: 13,
+            productDes: '曾在新浪微博工作五年，现在创业中，从事孵化网红的项目，我很愿意和你分享一个网红是如何诞生的。',
+            stagerDes: [
+                '曾任新浪微博产品经理，现在自己组团队组成了网红孵化的工作室。得用户注意力者得天下。可聊产品，可聊运营、可聊网红。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBfc3ic9z2dLXL6kn7UO4GbuPicshPba3OUnBuc7jH21BptKPJS6siaCaNg/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBPMWGdkHLUQ7gDSKIj677dOCC28VlLYKjUxHY4xLtEyINI5AXhWUf5g/0?wx_fmt=png'
+        },
+        {
+            id: 203,
+            title: '我是如何通过自媒体月入过万的',
+            name: '龙奴电影',
+            wechatAccount: 'Yamatepis',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
+            profession: '自媒体工作者',
+            experienceTag: '月收入过万，现已开工作室',
+            classificationId: 2,
+            address: '辉煌国际大厦',
+            distance: '2km',
+            price: 100,
+            faced: 5,
+            productDes: '都说最近三年是自媒体的红利期，我虽然没有能大红大紫，但还是实现了月薪过万，30w+粉丝，我很愿意和你分享我的经历，当然也欢迎你关注我的头条号龙奴电影，一本正经讲电影，生情并茂讲故事',
+            stagerDes: [
+                '原360产品经理，工作两年后洞悉自媒体红利，毅然辞职后全力投入，现头条号龙奴电影运营者，粉丝30w+，月收入过万，开了自己的工作室。做产品和做内容一样，只要你能懂用户想看什么，需要什么，就能产出好的内容，而好的内容永远是稀缺的，有竞争力的，很期待与各行各业的你相遇，互相制造启发感。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBiauut44PS22l9WggCTrql15T1KzIK9h2dH2YaU7sG2vYlxWMup0EggQ/0?wx_fmt=png',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxByib4ucNMjcNmdbiavTznr0r5VY76Y8AdH69uuE5ktRZMCP6XlnwSVSXw/0?wx_fmt=png'
+        },
+        {
+            id: 106,
+            title: '视觉／交互设计师如何整理作品集？',
+            name: '王倩',
             wechatAccount: 'huiyu9144',
             wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0c0HHGNmvsicq066iasvOZiat1L2BpAUDuMw9RtL4zPE3JcmZOOJcvLba6pdopuUdleN8uzV9UicVsc0g/0?wx_fmt=png',
-            profession: '网易技术专家',
-            experienceTag: '做技术多年',
-            classificationId: 1,
+            profession: '网易交互设计专家',
+            experienceTag: '研究过作品集整理技巧',
+            classificationId: 6,
+            address: '网易大楼',
+            distance: '100m',
+            price: 50,
+            faced: 23,
+            productDes: '我发现无论级别高低，设计师普遍不重视对自己作品集的整理与讲述，其实如果不加整理，这些作品可能也没办法体现你自身的能力点。你需要抓住这来之不易的面试机会，充分地做准备，主动地作表述。',
+            stagerDes: [
+                '我一直从事用户体验设计工作，它对于我而言不仅是工作，也是兴趣，更是不断探索的过程。小时候读的一本名著《牛虻》里面有一句话一直影响着我，“不管我活着，还是我死去，我都是一只牛虻，快乐地飞来飞去。”我追求精神世界的自由，也追求对生活和工作不断地探索。',
+                '“内敛而不内向；沉稳而不沉闷；亲切而不亲热；幽默而不油滑；谨慎而不紧张；隐忍而不隐身”互联网生活中的快节奏，让大多数人浮躁不安，而我在努力沉淀的这几年，逐渐找到了自己的方向。我可以通过分享我的经验，帮助选择走上交互设计的你们，找到你们的未来发展目标。'
+            ],
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5tWeQVdpgSWXyzBp4h895HlRq0zsCwvhIungNB5DrichGKvQGYZ6TFRg/0?wx_fmt=jpeg',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5ribuYfibH9eJb0mvfymVKbZxAK2ZqVZ00TTrxjFXVXFQIZDENUfUEb6w/0?wx_fmt=png'
+        },
+        {
+            id: 101,
+            title: '了解游戏活动的策略设计',
+            name: '周婧',
+            wechatAccount: 'huiyu9144',
+            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0c0HHGNmvsicq066iasvOZiat1L2BpAUDuMw9RtL4zPE3JcmZOOJcvLba6pdopuUdleN8uzV9UicVsc0g/0?wx_fmt=png',
+            profession: '网易游戏运营',
+            experienceTag: '游戏行业沉浮3年',
+            classificationId: 2,
             address: '网易大楼',
             distance: '50m',
-            price: 100,
-            faced: 11,
-            productDes: '我作为一个技术人员，从事互联网开发超过5年，其中包括在百度的3年技术工作，希望能够与同学一起探讨技术职业发展相关的话题。',
+            price: 50,
+            faced: 17,
+            productDes: '我是一个做了3年游戏策划的老兵，从wap游戏开始，一直到今天的手游。职位也从一个小兵，到一个策划人，其中有许多游戏活动的经历。',
             stagerDes: [
-                '曾就职于百度，2015年晋升为高级工程师。经历过电商、支付、O2O 等业务的大前端开发和团队管理。做了前端的用户行为系统前身，广泛应用于业务。',
-                '后来百度有啊拆分成创业公司，创始团队成员，公司 A 轮 5000w 刀，此时开始逐步接触团队管理工作。一年多时间业务上也经历包括社区，O2O 商城，交易系统。经历创业技术团队之痛，经历创业失败。'
+                '在对「游戏体验」追本溯源的过程中，发现一切都顺应于人性的设计，于是一头扎进认知科学、社会心理学、脑神经科学、行为科学、等领域，进行跨领域学习。',
+                '在对「人的游戏体验」越来越了解的同时，我发现我也渐渐拥有了设计自己人生体验的能力，并且通过种种原理和应用，让自己的生活幸福度和生命品质都有了很大的提升。'
             ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5Z1lCNlFgJEFsvOpaoKboA28CChcyNMaLefRzUQyLbhDUMKHicOicia64g/0?wx_fmt=jpeg',
-            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5jIqoQb7nrKRayVpIfTA3Rib08KibWAS3oDlPU7nXFLfDvd0fNiaNrv3wg/0?wx_fmt=png'
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJsaF0aWgRloLUam9wthrvibXUUNHHNibrQuOTdbrwVnqJlrbGITM9q1ajA/0?wx_fmt=jpeg',
+            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0e79xkz3vTKBCPr5lfxvbJsymTexFfg6Y2d2EQkysR0WAV6OU5wNibTmb4fQ8eRF4RD2Tq75xyaVpQ/0?wx_fmt=png'
         },
         {
             id: 105,
@@ -189,27 +333,6 @@ module.exports = {
             ],
             headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5ZXZdhmu6iaK9ELm7aZHDgZGeE8YaXD8PQ1EXS0OicHTR5UKhaww00BgA/0?wx_fmt=jpeg',
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5UwYNdENI4YOb4vNkuk5tZ6KaPZk8NEoA6VSekDrYz6HFul6Al9SPVg/0?wx_fmt=png'
-        },
-        {
-            id: 106,
-            title: '视觉／交互设计师如何整理作品集？',
-            name: '王倩',
-            wechatAccount: 'huiyu9144',
-            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0c0HHGNmvsicq066iasvOZiat1L2BpAUDuMw9RtL4zPE3JcmZOOJcvLba6pdopuUdleN8uzV9UicVsc0g/0?wx_fmt=png',
-            profession: '网易交互设计专家',
-            experienceTag: '研究过作品集整理技巧',
-            classificationId: 6,
-            address: '网易大楼',
-            distance: '100m',
-            price: 50,
-            faced: 23,
-            productDes: '我发现无论级别高低，设计师普遍不重视对自己作品集的整理与讲述，其实如果不加整理，这些作品可能也没办法体现你自身的能力点。你需要抓住这来之不易的面试机会，充分地做准备，主动地作表述。',
-            stagerDes: [
-                '我一直从事用户体验设计工作，它对于我而言不仅是工作，也是兴趣，更是不断探索的过程。小时候读的一本名著《牛虻》里面有一句话一直影响着我，“不管我活着，还是我死去，我都是一只牛虻，快乐地飞来飞去。”我追求精神世界的自由，也追求对生活和工作不断地探索。',
-                '“内敛而不内向；沉稳而不沉闷；亲切而不亲热；幽默而不油滑；谨慎而不紧张；隐忍而不隐身”互联网生活中的快节奏，让大多数人浮躁不安，而我在努力沉淀的这几年，逐渐找到了自己的方向。我可以通过分享我的经验，帮助选择走上交互设计的你们，找到你们的未来发展目标。'
-            ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5tWeQVdpgSWXyzBp4h895HlRq0zsCwvhIungNB5DrichGKvQGYZ6TFRg/0?wx_fmt=jpeg',
-            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cYzIhSjVws86qv6rbs9bA5ribuYfibH9eJb0mvfymVKbZxAK2ZqVZ00TTrxjFXVXFQIZDENUfUEb6w/0?wx_fmt=png'
         },
         {
             id: 107,
@@ -360,26 +483,6 @@ module.exports = {
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBUm5WcTOuRS2vKI7Y4tbPjJkpicecKictkt7j6s0Yp96Nb0OuV3YzlzLA/0?wx_fmt=png'
         },
         {
-            id: 203,
-            title: '我是如何通过自媒体月入过万的',
-            name: '龙奴电影',
-            wechatAccount: 'Yamatepis',
-            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
-            profession: '自媒体工作者',
-            experienceTag: '月收入过万，现已开工作室',
-            classificationId: 2,
-            address: '辉煌国际大厦',
-            distance: '2km',
-            price: 100,
-            faced: 5,
-            productDes: '都说最近三年是自媒体的红利期，我虽然没有能大红大紫，但还是实现了月薪过万，30w+粉丝，我很愿意和你分享我的经历，当然也欢迎你关注我的头条号龙奴电影，一本正经讲电影，生情并茂讲故事',
-            stagerDes: [
-                '原360产品经理，工作两年后洞悉自媒体红利，毅然辞职后全力投入，现头条号龙奴电影运营者，粉丝30w+，月收入过万，开了自己的工作室。做产品和做内容一样，只要你能懂用户想看什么，需要什么，就能产出好的内容，而好的内容永远是稀缺的，有竞争力的，很期待与各行各业的你相遇，互相制造启发感。'
-            ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBiauut44PS22l9WggCTrql15T1KzIK9h2dH2YaU7sG2vYlxWMup0EggQ/0?wx_fmt=png',
-            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxByib4ucNMjcNmdbiavTznr0r5VY76Y8AdH69uuE5ktRZMCP6XlnwSVSXw/0?wx_fmt=png'
-        },
-        {
             id: 204,
             title: '如何快速融入新的工作环境，建立朋友圈',
             name: '蔡培',
@@ -439,47 +542,7 @@ module.exports = {
             headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBWRA0SpXpcYDuhbV1JRfM7gHpmVEIzxAY5l35HSROnbibmu3IACmX8Cg/0?wx_fmt=png',
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBytp5zJ3P71JyVBpfHGEqaWQLby5gTTxVRzjz4pjG6OE4998YKPicDTg/0?wx_fmt=png'
         },
-        {
-            id: 207,
-            title: '聊一聊如何孵化运营一个网红',
-            name: '赵小龙',
-            wechatAccount: 'Yamatepis',
-            wechatQRUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0cTvfxFeXH1PU7XNicaoiaWajRdlsgxYvm3b1zs1gY4roEsv9FVr9p02HVrrfDou3TDIiaHRuQuOkn9g/0?wx_fmt=png',
-            profession: '网红孵化工作室',
-            experienceTag: '曾任新浪微博产品经理',
-            classificationId: 2,
-            address: '新浪总部大厦',
-            distance: '500m',
-            price: 100,
-            faced: 13,
-            productDes: '曾在新浪微博工作五年，现在创业中，从事孵化网红的项目，我很愿意和你分享一个网红是如何诞生的。',
-            stagerDes: [
-                '曾任新浪微博产品经理，现在自己组团队组成了网红孵化的工作室。得用户注意力者得天下。可聊产品，可聊运营、可聊网红。'
-            ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBfc3ic9z2dLXL6kn7UO4GbuPicshPba3OUnBuc7jH21BptKPJS6siaCaNg/0?wx_fmt=png',
-            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBPMWGdkHLUQ7gDSKIj677dOCC28VlLYKjUxHY4xLtEyINI5AXhWUf5g/0?wx_fmt=png'
-        },
         // 润民物料部分 Yamatepis
-        {
-            id: 300,
-            title: '手把手带你入门吉他弹唱',
-            name: '张润民',
-            wechatAccount: 'runmin_zhang',
-            wechatQRUrl: '',
-            profession: '百度交互设计师',
-            experienceTag: '4年吉他爱好者',
-            classificationId: 3,
-            address: '百度科技园',
-            distance: '500m',
-            price: 50,
-            faced: 6,
-            productDes: '4年多的吉他经历，1年多的指弹，主要玩玩押尾桑的曲子，可以聊聊如何入门的问题，以及自学中遇到的坑、瓶颈，或者基础乐理，包括和弦、节奏、音阶等等，以及吉他弹唱基本知识，或者一把吉他如何上台伴奏。',
-            stagerDes: [
-                '毕业于四川大学，目前就职百度从事交互设计职位。关于吉他经历，学校期间多次参加文艺表演，工作期间参加了百度UXC年会表演。较深刻的研究了关于吉他方面的一些乐理。'
-            ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBJP51eicnquUecjD8uIPCCDDfbrrQHh3JrrIBXD3F7LLLhSJ5wmPS9bQ/0?wx_fmt=png',
-            contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBl8WU96Uw0KbuwZVjMb4bCeMCzMoa1OrGZbCj8dNuZpXLVt2micnXQMA/0?wx_fmt=png'
-        },
         {
             id: 301,
             title: '前端工程师的发展路径',

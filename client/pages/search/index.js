@@ -1,35 +1,16 @@
 //index.js
+const utils = require('../../utils/util.js');
 
 Page({
   data: {
     dataList: [],
     searchResultList: [],
+    date: '',
     isShowEmpty: false
   },
   onLoad() {
-    const me = this;
-    wx.getStorage({
-      key: 'dataList',
-      success(res) {
-        const dataList = res.data;
-        me.setData({
-          dataList
-        });
-      }
-    });
-  },
-  // 约过来人
-  appoint(event) {
-    const stagerId = event.currentTarget.dataset.id;
-    wx.navigateTo({
-      url: '/pages/appointment/index?stagerId=' + stagerId
-    });
-  },
-  // 跳到详情页
-  toStagerDetailPage(event) {
-    const stagerId = event.currentTarget.dataset.id;
-    wx.navigateTo({
-      url: '/pages/stager-detail/index?stagerId=' + stagerId
+    this.setData({
+      date: utils.formatTime(new Date)
     });
   },
   // 退出搜索状态
@@ -40,6 +21,12 @@ Page({
   search(event) {
     this.setData({
       isShowEmpty: true
+    });
+
+    // api 埋点
+    wx.reportAnalytics('search', {
+      date: this.data.date,
+      search_text: event.detail.value,
     });
   }
 });
