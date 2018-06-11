@@ -6,7 +6,6 @@ const utils = require('../../utils/util.js');
 Page({
   data: {
     userInfo: {},
-    nickName: '',
     date: '',
     locationName: '百度科技园附近',
     dataList: data.dataList,
@@ -26,8 +25,7 @@ Page({
     });
 
     this.setData({
-      date: utils.formatTime(new Date),
-      nickName: app.globalData.userInfo.nickName
+      date: utils.formatTime(new Date)
     });
   },
   // 约过来人

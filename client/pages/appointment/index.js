@@ -1,9 +1,9 @@
 //index.js
+const utils = require('../../utils/util.js');
 
 Page({
   data: {
     date: '',
-    nickName: '',
     id: 0,
     title: '',
     phone: '',
@@ -35,8 +35,7 @@ Page({
     });
 
     this.setData({
-      date: utils.formatTime(new Date),
-      nickName: app.globalData.userInfo.nickName
+      date: utils.formatTime(new Date)
     });
   },
   appoint() {

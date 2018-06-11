@@ -11,16 +11,24 @@
   </section>
   <section class="card-section textarea-section">
     <div class="title">
+      联系方式
+    </div>
+    <div class="input-container">
+      <input placeholder="手机/微信"  bindinput="phoneChange"/>
+    </div>
+  </section>
+  <section class="card-section textarea-section">
+    <div class="title">
       话题
     </div>
     <div class="textarea-container">
-      <textarea class="textarea" bindinput="onInput" placeholder="想成为哪方面过来人，写出你的经历"/>
+      <textarea class="textarea content" bindinput="contentChange" placeholder="想成为哪方面过来人，写出你的经历"/>
       <span class="count">{{count}}/100</span>
     </div>
   </section>
   <section class="bottom-right">
     <div>温馨提示：该服务由过来人科技提供</div>
-    <div>客服电话：138-8078-6473</div>
+    <div>客服电话：185-0019-0180</div>
   </section>
   <view class="bottom-bar" bindtap="submit">
     提交

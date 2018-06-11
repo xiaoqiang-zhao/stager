@@ -27,7 +27,7 @@
   <view class="stager-list">
     <article class="stager-item" wx:for="{{dataList}}" wx:key="id">
       <image class="header-img"
-             mode="aspectFit"
+             mode="aspectFill"
              bindtap="toStagerDetailPage"
              data-id="{{item.id}}"
              src="{{item.headerImgUrl}}"></image>

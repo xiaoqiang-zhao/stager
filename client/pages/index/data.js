@@ -122,7 +122,7 @@ module.exports = {
             stagerDes: [
                 '毕业于四川大学，目前就职百度从事交互设计职位。关于吉他经历，学校期间多次参加文艺表演，工作期间参加了百度UXC年会表演。较深刻的研究了关于吉他方面的一些乐理。'
             ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBJP51eicnquUecjD8uIPCCDDfbrrQHh3JrrIBXD3F7LLLhSJ5wmPS9bQ/0?wx_fmt=png',
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0ceFoCYgkHphYeZ1gmIIWBJtUgI89fcleeMQZ5tYRCMJLIlN07JNfneqyVWFDSjLq9NfJCtUgEicsQ/0?wx_fmt=png',
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBl8WU96Uw0KbuwZVjMb4bCeMCzMoa1OrGZbCj8dNuZpXLVt2micnXQMA/0?wx_fmt=png'
         },
         {
@@ -580,7 +580,7 @@ module.exports = {
             stagerDes: [
                 '师范院校毕业、一年教师经验，3年互联网经验。2017.2-至今网易产品经理，通过创新方法挖掘用户需求，完成多个垂直方向实体化推进，项目数据突出。2015.8-2017.2 搜狐视频产品负责全部页面、后端服务、播放器产品设计。'
             ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBVrV3Hc4EzR74xfB2lp3WomsZg3ezfEhMS4jFP0ZSdkzXKJffXVaFWw/0?wx_fmt=png',
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0ceFoCYgkHphYeZ1gmIIWBJnYuibuzC87K0tK4rrqQRaZ9jc1xmGpdkhdgvJxxD7IcN1ccV6icTfpyQ/0?wx_fmt=png',
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxB2olS1SpuS9dYA6L9JSdPzxSuOZTzJR8B1lPxwMShbfPEB55pd1rRhA/0?wx_fmt=png'
         },
         {
@@ -700,7 +700,7 @@ module.exports = {
             stagerDes: [
                 '2013-2015在人人网从事技术，随后从事策划工作，2016至今在网易从事产品工作，从事过技术，市场、 运营产品等工作。'
             ],
-            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBnvpxCibmW5GAvHXCKm3ZicR3SSN8Q3HkibPvibbtUpJVxOj9cpBLK9Btqg/0?wx_fmt=png',
+            headerImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/oZLZe4SBN0ceFoCYgkHphYeZ1gmIIWBJsEdGUOtgFIaJhwq43Rw5gwqD1CML9sa5fbEAkBPqcuYOxZmDichEYaw/0?wx_fmt=png',
             contentImgUrl: 'https://mmbiz.qpic.cn/mmbiz_png/wDK6CibcOhhMfM2uRLLRDHh52vA6hGkxBnvpxCibmW5GAvHXCKm3ZicR3SSN8Q3HkibPvibbtUpJVxOj9cpBLK9Btqg/0?wx_fmt=png'
         },
         {

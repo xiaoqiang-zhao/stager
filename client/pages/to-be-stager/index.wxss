@@ -64,6 +64,13 @@ page {
   padding: 5px 10px;
 }
 
+.input-container {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+}
+
 .textarea-container .count {
   position: absolute;
   right: 10px;
@@ -80,7 +87,8 @@ page {
   font-size: 14px;
 }
 
-.textarea-section .textarea-placeholder {
+.input-placeholder,
+.textarea-placeholder {
   font-size: 14px;
   color: #999;
 }

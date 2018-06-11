@@ -1,10 +1,11 @@
 // 成为过来人
+const utils = require('../../utils/util.js');
 
 Page({
   data: {
     userInfo: {},
     date: '',
-    nickName: '',
+    phone: '',
     content: '',
     count: 0
   },
@@ -13,13 +14,19 @@ Page({
       title: '成为过来人'
     });
     this.setData({
-      date: utils.formatTime(new Date),
-      nickName: app.globalData.userInfo.nickName
+      date: utils.formatTime(new Date)
     });
   },
 
   // 文本域输入事件
-  onInput(event) {
+  phoneChange(event) {
+    this.setData({
+      phone: event.detail.value
+    });
+  },
+
+  // 文本域输入事件
+  contentChange(event) {
     this.setData({
       count: event.detail.cursor,
       content: event.detail.value

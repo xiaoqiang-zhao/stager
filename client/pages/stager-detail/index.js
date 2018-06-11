@@ -5,7 +5,6 @@ Page({
   data: {
     stager: {},
     date: '',
-    nickName: '',
     id: 0,
     title: '',
     // 所属分类信息
@@ -36,8 +35,7 @@ Page({
     });
 
     this.setData({
-      date: utils.formatTime(new Date),
-      nickName: app.globalData.userInfo.nickName
+      date: utils.formatTime(new Date)
     });
   },
   // 设置所属分类
