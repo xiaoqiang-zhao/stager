@@ -22,7 +22,7 @@
       <span>(等待过来人来电)</span>
     </div>
     <div class="phone-line">
-      <input class="input" type="number" placeholder="请留下您的联系方式"/>
+      <input class="input" type="number"  bindinput="onInput" placeholder="请留下您的联系方式"/>
       <button class="button" type="default" bindtap="appoint">预约见面</button>
     </div>
     <div class="wechat-line">

@@ -1,23 +1,5 @@
 <!--index.wxml-->
 <view class="container">
-  <!-- hidden: {{hidden}} -->
-  <!-- <button bindtap="openDialog">打开弹窗</button> -->
-  <dialog title="授权请求"
-          hidden="{{hidden}}"
-          showCancel="{{false}}"
-          showConfirm="{{false}}"
-          class="index-dialog">
-    <div class="text">为了顺畅使用此小程序，需要您的授权</div>
-    <!-- <button open-type="openSetting">打开授权设置页</button> -->
-    <button class="btn"
-            size="mini"
-            type="primary"
-            open-type="getUserInfo"
-            lang="zh_CN"
-            bindgetuserinfo="onGotUserInfo">
-      点击授权
-    </button>
-  </dialog>
   <!-- 头图 -->
   <view class="banner">
     <image class="banner-img" mode="widthFix" src="banner.png"></image>

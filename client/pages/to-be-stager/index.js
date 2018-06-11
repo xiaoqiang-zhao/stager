@@ -3,27 +3,26 @@
 Page({
   data: {
     userInfo: {},
-    locationName: '百度科技园附近',
+    date: '',
+    nickName: '',
+    content: '',
     count: 0
   },
   onLoad() {
-    // wx.chooseLocation({
-    //     success: res => {
-    //         this.locationName = res.name;
-    //     },
-    //     fail: res => {
-    //         this.locationName = '未授权获取当前位置';
-    //     }
-    // });
     wx.setNavigationBarTitle({
       title: '成为过来人'
+    });
+    this.setData({
+      date: utils.formatTime(new Date),
+      nickName: app.globalData.userInfo.nickName
     });
   },
 
   // 文本域输入事件
   onInput(event) {
     this.setData({
-      count: event.detail.cursor
+      count: event.detail.cursor,
+      content: event.detail.value
     });
   },
 

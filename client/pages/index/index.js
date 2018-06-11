@@ -1,5 +1,5 @@
-//index.js
-
+// 过来人列表页
+const app = getApp();
 const data = require('./data.js');
 const utils = require('../../utils/util.js');
 
@@ -15,9 +15,6 @@ Page({
     hidden: true
   },
   onLoad() {
-    // 请求授权
-    // this.authorize();
-
     wx.setStorage({
       key: 'dataList',
       data: data.dataList
@@ -29,41 +26,8 @@ Page({
     });
 
     this.setData({
-      date: utils.formatTime(new Date)
-    });
-  },
-  authorize() {
-    const me = this;
-    // 先查询用户是否授权了
-    wx.getSetting({
-      success(res) {
-        // 未授权时，弹框要授权
-        if (!res.authSetting['scope.userInfo']) {
-          me.openDialog();
-        }
-        // 已授权可以直接掉接口获取用户数据
-        else {
-          wx.getUserInfo({
-            success(res) {
-              me.setUserInfo(res.userInfo);
-            }
-          });
-        }
-        // 注：已授权的不可取消授权
-      }
-    });
-  },
-  onGotUserInfo(event) {
-    // 当授权拒绝时，返回 null
-    if (event.detail.userInfo) {
-      this.setUserInfo(event.detail.userInfo);
-      this.closeDialog();
-    }
-  },
-  setUserInfo(userInfo) {
-    this.setData({
-      userInfo: userInfo,
-      nickName: userInfo.nickName
+      date: utils.formatTime(new Date),
+      nickName: app.globalData.userInfo.nickName
     });
   },
   // 约过来人
@@ -110,18 +74,6 @@ Page({
   search() {
     this.setData({
       isActivedSearch: false
-    });
-  },
-  // 打开弹框
-  openDialog() {
-    this.setData({
-      hidden: false
-    });
-  },
-  // 关闭弹窗
-  closeDialog() {
-    this.setData({
-      hidden: true
     });
   }
 });

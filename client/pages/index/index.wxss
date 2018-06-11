@@ -182,15 +182,3 @@ page {
 .bottom-bar .iconfont {
   font-size: 18px;
 }
-
-.index-dialog .text {
-  text-align: center;
-  font-size: 14px;
-  line-height: 3em;
-}
-
-.index-dialog .btn {
-  display: block;
-  width: 50%;
-  margin-bottom: 1em;
-}

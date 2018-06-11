@@ -5,6 +5,9 @@ Page({
   data: {
     stager: {},
     date: '',
+    nickName: '',
+    id: 0,
+    title: '',
     // 所属分类信息
     classification: {},
     isCollected: false,
@@ -20,6 +23,8 @@ Page({
         dataList.some(item => {
           if (item.id == option.stagerId) {
             me.setData({
+              id: item.id,
+              title: item.title,
               stager: item,
               stagerId: option.stagerId
             });
@@ -31,7 +36,8 @@ Page({
     });
 
     this.setData({
-      date: utils.formatTime(new Date)
+      date: utils.formatTime(new Date),
+      nickName: app.globalData.userInfo.nickName
     });
   },
   // 设置所属分类

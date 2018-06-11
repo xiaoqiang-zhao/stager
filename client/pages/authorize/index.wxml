@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button class="btn" wx:if="authorized" open-type="getUserInfo" bindtap="inter">
+      进入
+    </button>
+    <button class="btn" wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+        授权头像和昵称  
+      </button>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>

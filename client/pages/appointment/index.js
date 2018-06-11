@@ -2,6 +2,11 @@
 
 Page({
   data: {
+    date: '',
+    nickName: '',
+    id: 0,
+    title: '',
+    phone: '',
     stager: {},
     stagerId: 0
   },
@@ -18,6 +23,8 @@ Page({
         dataList.some(item => {
           if (item.id == option.stagerId) {
             me.setData({
+              id: item.id,
+              title: item.title,
               stager: item,
               stagerId: option.stagerId
             });
@@ -26,6 +33,11 @@ Page({
         });
       }
     });
+
+    this.setData({
+      date: utils.formatTime(new Date),
+      nickName: app.globalData.userInfo.nickName
+    });
   },
   appoint() {
     wx.showToast({
@@ -33,5 +45,10 @@ Page({
       icon: 'success',
       duration: 2000
     });
-  }
+  },
+  onInput(event) {
+    this.setData({
+      phone: event.detail.value
+    });
+  },
 });
