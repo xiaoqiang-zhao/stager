@@ -39,6 +39,6 @@
       </div>
   </section>
   <view class="bottom-bar" bindtap="appoint" data-id="stager.id">
-    立即预约
+    联系过来人
   </view>
 </view>
